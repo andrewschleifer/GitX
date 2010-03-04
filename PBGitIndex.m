@@ -329,7 +329,7 @@ NSString *PBGitIndexOperationFailed = @"PBGitIndexOperationFailed";
 	[self postIndexChange];
 }
 
-- (BOOL)applyPatch:(NSString *)hunk stage:(BOOL)stage reverse:(BOOL)reverse;
+- (BOOL)applyPatch:(NSString *)hunk stage:(BOOL)stage reverse:(BOOL)reverse
 {
 	NSMutableArray *array = [NSMutableArray arrayWithObjects:@"apply", nil];
 	if (stage)
