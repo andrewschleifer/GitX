@@ -10,6 +10,14 @@
 #import "PBGitRevisionCell.h"
 #import "PBRefMenuItem.h"
 
+
+@interface PBRefController ()
+
+- (void)removeRefSheetDidEnd:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo;
+
+@end
+
+
 @implementation PBRefController
 
 - (void)awakeFromNib

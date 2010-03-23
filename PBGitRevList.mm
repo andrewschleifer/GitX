@@ -20,6 +20,14 @@
 
 using namespace std;
 
+
+@interface PBGitRevList ()
+
+- (void)walkRevisionListWithSpecifier:(PBGitRevSpecifier *)rev;
+
+@end
+
+
 @implementation PBGitRevList
 
 @synthesize commits;

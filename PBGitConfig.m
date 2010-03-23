@@ -9,15 +9,22 @@
 #import "PBGitConfig.h"
 
 
+@interface PBGitConfig ()
+
+- (void)writeValue:(NSString *)value forKey:(NSString *)key global:(BOOL)global;
+
+@end
+
+
 @implementation PBGitConfig
 
-- init
+- (id)init
 {
 	repositoryPath = nil;
 	return self;
 }
 
-- initWithRepository:(NSString *)path
+- (id)initWithRepository:(NSString *)path
 {
 	repositoryPath = path;
 	return self;
@@ -45,7 +52,7 @@
 	[self didChangeValueForKey:[key substringToIndex:[key rangeOfString:@"."].location]];
 }
 
-- valueForKeyPath:(NSString *)path
+- (NSString *)valueForKeyPath:(NSString *)path
 {
 	NSMutableArray *arguments = [NSMutableArray array];
 	if (repositoryPath)

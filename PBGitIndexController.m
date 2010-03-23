@@ -13,9 +13,14 @@
 
 #define FileChangesTableViewType @"GitFileChangedType"
 
+
 @interface PBGitIndexController ()
+
 - (void)discardChangesForFiles:(NSArray *)files force:(BOOL)force;
+- (void)discardChangesForFilesAlertDidEnd:(NSAlert *)alert returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo;
+
 @end
+
 
 @implementation PBGitIndexController
 

@@ -14,6 +14,14 @@
 #define QLPreviewPanel NSClassFromString(@"QLPreviewPanel")
 
 
+@interface PBGitHistoryController ()
+
+- (void)updateKeys;
+- (BOOL)hasNonlinearPath;
+
+@end
+
+
 @implementation PBGitHistoryController
 @synthesize selectedTab, webCommit, rawCommit, gitTree, commitController;
 

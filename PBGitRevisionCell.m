@@ -10,6 +10,21 @@
 #import "PBGitRef.h"
 #import "RoundedRectangle.h"
 
+
+@interface PBGitRevisionCell ()
+
+- (NSArray *)colors;
+- (void)drawLineFromColumn:(int)from toColumn:(int)to inRect:(NSRect)r offset:(int)offset color:(int)c;
+- (void)drawCircleInRect:(NSRect)r;
+- (void)drawTriangleInRect:(NSRect)r sign:(char)sign;
+- (NSMutableDictionary *)attributesForRefLabelSelected:(BOOL)selected;
+- (NSColor *)colorForRef:(PBGitRef *)ref;
+- (NSArray *)rectsForRefsinRect:(NSRect)rect;
+- (void)drawRefsInRect:(NSRect *)refRect;
+
+@end
+
+
 @implementation PBGitRevisionCell
 
 

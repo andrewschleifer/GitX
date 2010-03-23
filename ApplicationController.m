@@ -20,7 +20,7 @@
 @implementation ApplicationController
 @synthesize cliProxy;
 
-- (ApplicationController*)init
+- (id)init
 {
 #ifdef DEBUG_BUILD
 	[NSApp activateIgnoringOtherApps:YES];

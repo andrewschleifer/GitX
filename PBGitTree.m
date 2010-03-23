@@ -12,6 +12,19 @@
 #import "PBEasyPipe.h"
 #import "PBEasyFS.h"
 
+
+@interface PBGitTree ()
+
+- (NSString *)refSpec;
+- (BOOL)isLocallyCached;
+- (BOOL)hasBinaryHeader:(NSString *)contents;
+- (BOOL)hasBinaryAttributes;
+- (NSString *)textContents;
+- (NSString *)tmpDirWithContents;
+
+@end
+
+
 @implementation PBGitTree
 
 @synthesize sha, path, repository, leaf, parent;
@@ -38,7 +51,7 @@
 	return tree;
 }
 
-- init
+- (id)init
 {
 	children = nil;
 	localFileName = nil;

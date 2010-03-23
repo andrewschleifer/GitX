@@ -63,7 +63,6 @@ extern NSString* PBGitRepositoryErrorDomain;
 + (NSURL*)baseDirForURL:(NSURL*)repositoryURL;
 
 - (id) initWithURL: (NSURL*) path;
-- (void) setup;
 
 @property (assign) BOOL hasChanged;
 @property (readonly) PBGitWindowController *windowController;

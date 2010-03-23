@@ -16,9 +16,9 @@
 	NSString* lastSha;
 }
 
-- initWithRepository:(PBGitRepository *)repo;
-- (void) readCommitsForce: (BOOL) force;
-- (void) reload;
+- (id)initWithRepository:(PBGitRepository *)repo;
+- (void)readCommitsForce: (BOOL) force;
+- (void)reload;
 
 @property(retain) NSArray* commits;
 

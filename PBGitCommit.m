@@ -50,7 +50,7 @@
 	return &sha;
 }
 
-- initWithRepository:(PBGitRepository*) repo andSha:(git_oid)newSha
+- (id)initWithRepository:(PBGitRepository*) repo andSha:(git_oid)newSha
 {
 	details = nil;
 	repository = repo;

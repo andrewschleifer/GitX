@@ -9,6 +9,18 @@
 #import "PBWebHistoryController.h"
 #import "PBGitDefaults.h"
 
+
+@interface PBWebHistoryController ()
+
+- (void)commitDetailsLoaded:(NSNotification *)notification;
+- (void)selectCommit:(NSString *)sha;
+- (void)copySource;
+- (NSString *)getConfig:(NSString *)config;
+- (void)preferencesChanged;
+
+@end
+
+
 @implementation PBWebHistoryController
 
 @synthesize diff;
@@ -139,7 +151,7 @@ contextMenuItemsForElement:(NSDictionary *)element
 	[[NSWorkspace sharedWorkspace] openURL:[request URL]];
 }
 
-- getConfig:(NSString *)config
+- (NSString *)getConfig:(NSString *)config
 {
 	return [historyController valueForKeyPath:[@"repository.config." stringByAppendingString:config]];
 }

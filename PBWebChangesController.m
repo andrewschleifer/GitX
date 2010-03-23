@@ -10,6 +10,17 @@
 #import "PBGitIndexController.h"
 #import "PBGitIndex.h"
 
+
+@interface PBWebChangesController ()
+
+- (void)stageHunk:(NSString *)hunk reverse:(BOOL)reverse;
+- (void)discardHunk:(NSString *)hunk;
+- (void)discardHunkAlertDidEnd:(NSAlert *)alert returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo;
+- (void)discardHunk:(NSString *)hunk altKey:(BOOL)altKey;
+
+@end
+
+
 @implementation PBWebChangesController
 
 - (void) awakeFromNib

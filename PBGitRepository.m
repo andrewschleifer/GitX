@@ -18,6 +18,16 @@
 
 NSString* PBGitRepositoryErrorDomain = @"GitXErrorDomain";
 
+
+@interface PBGitRepository ()
+
++ (BOOL)isBareRepository:(NSString *)path;
+
+- (void)setup;
+
+@end
+
+
 @implementation PBGitRepository
 
 @synthesize revisionList, branches, currentBranch, refs, hasChanged, config;

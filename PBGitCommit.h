@@ -28,7 +28,7 @@
 	PBGitRepository* repository;
 }
 
-- initWithRepository:(PBGitRepository *)repo andSha:(git_oid)sha;
+- (id)initWithRepository:(PBGitRepository *)repo andSha:(git_oid)sha;
 
 - (void)addRef:(PBGitRef *)ref;
 - (void)removeRef:(id)ref;

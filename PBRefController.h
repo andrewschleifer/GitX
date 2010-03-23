@@ -13,6 +13,8 @@
 #import "PBGitCommit.h"
 #import "PBRefContextDelegate.h"
 
+@class PBRefMenuItem;
+
 @interface PBRefController : NSObject <PBRefContextDelegate> {
 	IBOutlet __weak PBGitHistoryController *historyController;
 	IBOutlet NSArrayController *commitController;
@@ -24,6 +26,10 @@
 
 	IBOutlet NSPopUpButton *branchPopUp;
 }
+
+- (void)removeRef:(PBRefMenuItem *)sender;
+- (void)checkoutRef:(PBRefMenuItem *)sender;
+- (void)tagInfo:(PBRefMenuItem *)sender;
 
 - (IBAction)addRef:(id)sender;
 - (IBAction)closeSheet:(id) sender;
