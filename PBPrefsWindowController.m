@@ -42,6 +42,7 @@
 	[openPanel setAllowsMultipleSelection:NO];
 	[openPanel setTreatsFilePackagesAsDirectories:YES];
 	[openPanel setAccessoryView:gitPathOpenAccessory];
+	[openPanel setResolvesAliases:NO];
 	//[[openPanel _navView] setShowsHiddenFiles:YES];
 
 	gitPathOpenPanel = openPanel;
