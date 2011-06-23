@@ -12,7 +12,7 @@
 #import "PBGitGrapher.h"
 #import "PBGitRevSpecifier.h"
 
-#include "git/oid.h"
+#include "git2/oid.h"
 #include <ext/stdio_filebuf.h>
 #include <iostream>
 #include <string>
