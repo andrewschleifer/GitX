@@ -6,20 +6,6 @@
 	objectVersion = 45;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		F56439F70F792B2100A579C2 /* Generate PList Prefix */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = F56439FD0F792B3600A579C2 /* Build configuration list for PBXAggregateTarget "Generate PList Prefix" */;
-			buildPhases = (
-				F56439F60F792B2100A579C2 /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = "Generate PList Prefix";
-			productName = "Generate PList Prefix";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		056438B70ED0C40B00985397 /* DetailViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 056438B60ED0C40B00985397 /* DetailViewTemplate.png */; };
 		3BC07F4C0ED5A5C5009A7768 /* HistoryViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */; };
@@ -109,13 +95,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 913D5E480E55644600CECEA2;
 			remoteInfo = "cli tool";
-		};
-		F5643A010F792B4900A579C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F56439F70F792B2100A579C2;
-			remoteInfo = "Generate PList Prefix";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -589,6 +568,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "GitX" */;
 			buildPhases = (
+				EB76EAB613B447A600B00C04 /* Preprocess PList */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
@@ -599,7 +579,6 @@
 			);
 			dependencies = (
 				913D5E5A0E5564F400CECEA2 /* PBXTargetDependency */,
-				F5643A020F792B4900A579C2 /* PBXTargetDependency */,
 			);
 			name = GitX;
 			productInstallPath = "$(HOME)/Applications";
@@ -607,9 +586,9 @@
 			productReference = 8D1107320486CEB800E47090 /* GitX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		913D5E480E55644600CECEA2 /* cli tool */ = {
+		913D5E480E55644600CECEA2 /* gitx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 913D5E570E55646100CECEA2 /* Build configuration list for PBXNativeTarget "cli tool" */;
+			buildConfigurationList = 913D5E570E55646100CECEA2 /* Build configuration list for PBXNativeTarget "gitx" */;
 			buildPhases = (
 				913D5E460E55644600CECEA2 /* Sources */,
 				913D5E470E55644600CECEA2 /* Frameworks */,
@@ -618,7 +597,7 @@
 			);
 			dependencies = (
 			);
-			name = "cli tool";
+			name = gitx;
 			productName = "cli tool";
 			productReference = 913D5E490E55644600CECEA2 /* gitx */;
 			productType = "com.apple.product-type.tool";
@@ -643,8 +622,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* GitX */,
-				913D5E480E55644600CECEA2 /* cli tool */,
-				F56439F70F792B2100A579C2 /* Generate PList Prefix */,
+				913D5E480E55644600CECEA2 /* gitx */,
 			);
 		};
 /* End PBXProject section */
@@ -681,13 +659,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F56439F60F792B2100A579C2 /* ShellScript */ = {
+		EB76EAB613B447A600B00C04 /* Preprocess PList */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Preprocess PList";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -784,13 +763,8 @@
 /* Begin PBXTargetDependency section */
 		913D5E5A0E5564F400CECEA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 913D5E480E55644600CECEA2 /* cli tool */;
+			target = 913D5E480E55644600CECEA2 /* gitx */;
 			targetProxy = 913D5E590E5564F400CECEA2 /* PBXContainerItemProxy */;
-		};
-		F5643A020F792B4900A579C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F56439F70F792B2100A579C2 /* Generate PList Prefix */;
-			targetProxy = F5643A010F792B4900A579C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -960,28 +934,6 @@
 			};
 			name = Release;
 		};
-		F56439F80F792B2100A579C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Generate PList Prefix";
-			};
-			name = Debug;
-		};
-		F56439F90F792B2100A579C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				INFOPLIST_PREPROCESS = YES;
-				PRODUCT_NAME = "Generate PList Prefix";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1003,20 +955,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		913D5E570E55646100CECEA2 /* Build configuration list for PBXNativeTarget "cli tool" */ = {
+		913D5E570E55646100CECEA2 /* Build configuration list for PBXNativeTarget "gitx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				913D5E4B0E55644600CECEA2 /* Debug */,
 				913D5E4C0E55644600CECEA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F56439FD0F792B3600A579C2 /* Build configuration list for PBXAggregateTarget "Generate PList Prefix" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F56439F80F792B2100A579C2 /* Debug */,
-				F56439F90F792B2100A579C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
