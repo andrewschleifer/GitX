@@ -31,6 +31,7 @@
 		EB2A734A0FEE3F09006601CF /* PBCollapsibleSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */; };
 		EB76EA3B13B4467700B00C04 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */; };
 		EB76EA7F13B446A600B00C04 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EA7E13B446A600B00C04 /* Security.framework */; };
+		EB76EB6013B4CB6C00B00C04 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */; };
 		F50A411F0EBB874C00208746 /* mainSplitterBar.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */; };
 		F50A41200EBB874C00208746 /* mainSplitterDimple.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */; };
 		F50A41230EBB875D00208746 /* PBNiceSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50A41220EBB875D00208746 /* PBNiceSplitView.m */; };
@@ -148,6 +149,7 @@
 		EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCollapsibleSplitView.m; sourceTree = "<group>"; };
 		EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB76EA7E13B446A600B00C04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterBar.tiff; path = Images/mainSplitterBar.tiff; sourceTree = "<group>"; };
 		F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterDimple.tiff; path = Images/mainSplitterDimple.tiff; sourceTree = "<group>"; };
 		F50A41210EBB875D00208746 /* PBNiceSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNiceSplitView.h; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				F56526240E03D85900F03B52 /* WebKit.framework in Frameworks */,
 				EB76EA3B13B4467700B00C04 /* SystemConfiguration.framework in Frameworks */,
 				EB76EA7F13B446A600B00C04 /* Security.framework in Frameworks */,
+				EB76EB6013B4CB6C00B00C04 /* QuickLook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +346,7 @@
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */,
 				EB76EA7E13B446A600B00C04 /* Security.framework */,
+				EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
