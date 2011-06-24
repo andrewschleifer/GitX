@@ -58,8 +58,6 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>SUFeedURL</key>
-	<string>http://gitx.frim.nl/Downloads/appcast.xml</string>
 	<key>NSServices</key>
 	<array>
 		<dict>
