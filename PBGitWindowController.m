@@ -9,7 +9,6 @@
 #import "PBGitWindowController.h"
 #import "PBGitHistoryController.h"
 #import "PBGitCommitController.h"
-#import "PBGitDefaults.h"
 
 @implementation PBGitWindowController
 
@@ -142,12 +141,6 @@
 	[[NSAlert alertWithError:error] beginSheetModalForWindow: [self window] modalDelegate:self didEndSelector:nil contextInfo:nil];
 }
 
-- (void)windowDidBecomeKey:(NSNotification *)notification
-{
-	if (self.viewController && [PBGitDefaults refreshAutomatically]) {
-		[(PBViewController *)self.viewController refresh:nil];
-	}
-}
 
 #pragma mark -
 #pragma mark Toolbar Delegates

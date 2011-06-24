@@ -37,5 +37,4 @@
 
 - (NSResponder *)firstResponder;
 
-- (IBAction) refresh:(id)sender;
 @end
