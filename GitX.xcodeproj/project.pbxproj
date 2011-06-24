@@ -31,7 +31,6 @@
 		47DBDBCA0E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */; };
 		770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* ApplicationController.m */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */; };
@@ -168,7 +167,6 @@
 
 /* Begin PBXFileReference section */
 		056438B60ED0C40B00985397 /* DetailViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DetailViewTemplate.png; path = Images/DetailViewTemplate.png; sourceTree = "<group>"; };
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* GitX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitX_Prefix.pch; sourceTree = "<group>"; };
@@ -312,9 +310,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C580E50EDA250900995434 /* libgit2.a in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				F56526240E03D85900F03B52 /* WebKit.framework in Frameworks */,
-				F5C580E50EDA250900995434 /* libgit2.a in Frameworks */,
 				EB76EA3B13B4467700B00C04 /* SystemConfiguration.framework in Frameworks */,
 				EB76EA7F13B446A600B00C04 /* Security.framework in Frameworks */,
 			);
@@ -411,7 +409,6 @@
 				47DBDB920E94F47200671A1E /* Preference Icons */,
 				D26DC6440E782C9000C777B2 /* gitx.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				F5B721C20E05CF7E00AF29DC /* MainMenu.xib */,
 				911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */,
 				F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */,
@@ -781,7 +778,6 @@
 			files = (
 				F5E92A1B0E88550E00056E75 /* empty_file.png in Resources */,
 				913D5E500E55645900CECEA2 /* gitx in Resources */,
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				F5B721C40E05CF7E00AF29DC /* MainMenu.xib in Resources */,
 				911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */,
 				D26DC6450E782C9000C777B2 /* gitx.icns in Resources */,
@@ -974,14 +970,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		47DBDB680E94EF6500671A1E /* Preferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1029,7 +1017,10 @@
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				INFOPLIST_PREPROCESS = YES;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = libgit2/build/static;
+				LIBRARY_SEARCH_PATHS = (
+					libgit2/build/static,
+					"\"$(SRCROOT)/libgit2/build/static\"",
+				);
 				PRODUCT_NAME = GitX;
 				USER_HEADER_SEARCH_PATHS = libgit2/include;
 				WRAPPER_EXTENSION = app;
@@ -1055,7 +1046,10 @@
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				INFOPLIST_PREPROCESS = YES;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = libgit2/build/static;
+				LIBRARY_SEARCH_PATHS = (
+					libgit2/build/static,
+					"\"$(SRCROOT)/libgit2/build/static\"",
+				);
 				PRODUCT_NAME = GitX;
 				USER_HEADER_SEARCH_PATHS = libgit2/include;
 				WRAPPER_EXTENSION = app;
