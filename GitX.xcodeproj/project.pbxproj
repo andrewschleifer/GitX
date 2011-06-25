@@ -12,14 +12,12 @@
 		3BC07F4D0ED5A5C5009A7768 /* CommitViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */; };
 		47DBDB580E94EDE700671A1E /* DBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDB570E94EDE700671A1E /* DBPrefsWindowController.m */; };
 		47DBDB670E94EE8B00671A1E /* PBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */; };
-		47DBDB6A0E94EF6500671A1E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDB680E94EF6500671A1E /* Preferences.xib */; };
 		47DBDBB10E94F6CA00671A1E /* Updates.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDBB00E94F6CA00671A1E /* Updates.png */; };
 		47DBDBCA0E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */; };
 		770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* ApplicationController.m */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */; };
 		911111F80E594F3F00BF76B4 /* PBRepositoryDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */; };
 		913D5E4D0E55644E00CECEA2 /* gitx.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D5E440E55640C00CECEA2 /* gitx.m */; };
 		913D5E500E55645900CECEA2 /* gitx in Resources */ = {isa = PBXBuildFile; fileRef = 913D5E490E55644600CECEA2 /* gitx */; };
@@ -32,6 +30,9 @@
 		EB76EA3B13B4467700B00C04 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */; };
 		EB76EA7F13B446A600B00C04 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EA7E13B446A600B00C04 /* Security.framework */; };
 		EB76EB6013B4CB6C00B00C04 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */; };
+		EBC5643613B5A07600DD539A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC5643313B5A07600DD539A /* MainMenu.xib */; };
+		EBC5643713B5A07600DD539A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC5643413B5A07600DD539A /* Preferences.xib */; };
+		EBC5643813B5A07600DD539A /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC5643513B5A07600DD539A /* RepositoryWindow.xib */; };
 		F50A411F0EBB874C00208746 /* mainSplitterBar.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */; };
 		F50A41200EBB874C00208746 /* mainSplitterDimple.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */; };
 		F50A41230EBB875D00208746 /* PBNiceSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50A41220EBB875D00208746 /* PBNiceSplitView.m */; };
@@ -67,7 +68,6 @@
 		F5945E170E02B0C200706420 /* PBGitRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F5945E160E02B0C200706420 /* PBGitRepository.m */; };
 		F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = F59F1DD4105C4FF300115F88 /* PBGitIndex.m */; };
 		F5AD56790E79B78100EDAAFE /* PBCommitList.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AD56780E79B78100EDAAFE /* PBCommitList.m */; };
-		F5B721C40E05CF7E00AF29DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B721C20E05CF7E00AF29DC /* MainMenu.xib */; };
 		F5C007750E731B48007B84B2 /* PBGitRef.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C007740E731B48007B84B2 /* PBGitRef.m */; };
 		F5C580E50EDA250900995434 /* libgit2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C580E40EDA250900995434 /* libgit2.a */; };
 		F5C6F68D0E65FF9300478D97 /* PBGitLane.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */; };
@@ -121,7 +121,6 @@
 		47DBDB570E94EDE700671A1E /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPrefsWindowController.m; sourceTree = "<group>"; };
 		47DBDB650E94EE8B00671A1E /* PBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPrefsWindowController.h; sourceTree = "<group>"; };
 		47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPrefsWindowController.m; sourceTree = "<group>"; };
-		47DBDB690E94EF6500671A1E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		47DBDBB00E94F6CA00671A1E /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Updates.png; path = Images/Preferences/Updates.png; sourceTree = "<group>"; };
 		47DBDBC80E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNSURLPathUserDefaultsTransfomer.h; sourceTree = "<group>"; };
 		47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBNSURLPathUserDefaultsTransfomer.m; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 		77C8280C06725ACE000B614F /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* GitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		911111E10E58BD5A00BF76B4 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RepositoryWindow.xib; sourceTree = "<group>"; };
 		911111F60E594F3F00BF76B4 /* PBRepositoryDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRepositoryDocumentController.h; sourceTree = "<group>"; };
 		911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRepositoryDocumentController.m; sourceTree = "<group>"; };
 		913D5E440E55640C00CECEA2 /* gitx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx.m; sourceTree = "<group>"; };
@@ -150,6 +148,9 @@
 		EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB76EA7E13B446A600B00C04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		EBC5643313B5A07600DD539A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		EBC5643413B5A07600DD539A /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		EBC5643513B5A07600DD539A /* RepositoryWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryWindow.xib; sourceTree = "<group>"; };
 		F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterBar.tiff; path = Images/mainSplitterBar.tiff; sourceTree = "<group>"; };
 		F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterDimple.tiff; path = Images/mainSplitterDimple.tiff; sourceTree = "<group>"; };
 		F50A41210EBB875D00208746 /* PBNiceSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNiceSplitView.h; sourceTree = "<group>"; };
@@ -207,7 +208,6 @@
 		F59F1DD4105C4FF300115F88 /* PBGitIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndex.m; sourceTree = "<group>"; };
 		F5AD56770E79B78100EDAAFE /* PBCommitList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitList.h; sourceTree = "<group>"; };
 		F5AD56780E79B78100EDAAFE /* PBCommitList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitList.m; sourceTree = "<group>"; };
-		F5B721C30E05CF7E00AF29DC /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F5C007730E731B48007B84B2 /* PBGitRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRef.h; sourceTree = "<group>"; };
 		F5C007740E731B48007B84B2 /* PBGitRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRef.m; sourceTree = "<group>"; };
 		F5C580E40EDA250900995434 /* libgit2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgit2.a; path = libgit2/build/static/libgit2.a; sourceTree = "<group>"; };
@@ -323,16 +323,16 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EBC5643313B5A07600DD539A /* MainMenu.xib */,
+				EBC5643413B5A07600DD539A /* Preferences.xib */,
+				EBC5643513B5A07600DD539A /* RepositoryWindow.xib */,
 				F50A41130EBB872D00208746 /* Widgets */,
 				47DBDB920E94F47200671A1E /* Preference Icons */,
 				D26DC6440E782C9000C777B2 /* gitx.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				F5B721C20E05CF7E00AF29DC /* MainMenu.xib */,
-				911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */,
 				F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */,
 				F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */,
 				F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */,
-				47DBDB680E94EF6500671A1E /* Preferences.xib */,
 				F569AE920F2CBD7C00C2FFA7 /* Credits.html */,
 			);
 			name = Resources;
@@ -635,8 +635,6 @@
 			files = (
 				F5E92A1B0E88550E00056E75 /* empty_file.png in Resources */,
 				913D5E500E55645900CECEA2 /* gitx in Resources */,
-				F5B721C40E05CF7E00AF29DC /* MainMenu.xib in Resources */,
-				911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */,
 				D26DC6450E782C9000C777B2 /* gitx.icns in Resources */,
 				F52BCE030E84208300AA3741 /* PBGitHistoryView.xib in Resources */,
 				F59116E60E843BB50072CCB1 /* PBGitCommitView.xib in Resources */,
@@ -650,9 +648,11 @@
 				F56ADDDA0ED19F9E002AC78F /* AddLabelTemplate.png in Resources */,
 				3BC07F4C0ED5A5C5009A7768 /* HistoryViewTemplate.png in Resources */,
 				3BC07F4D0ED5A5C5009A7768 /* CommitViewTemplate.png in Resources */,
-				47DBDB6A0E94EF6500671A1E /* Preferences.xib in Resources */,
 				47DBDBB10E94F6CA00671A1E /* Updates.png in Resources */,
 				F569AE930F2CBD7C00C2FFA7 /* Credits.html in Resources */,
+				EBC5643613B5A07600DD539A /* MainMenu.xib in Resources */,
+				EBC5643713B5A07600DD539A /* Preferences.xib in Resources */,
+				EBC5643813B5A07600DD539A /* RepositoryWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,33 +767,6 @@
 			targetProxy = 913D5E590E5564F400CECEA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		47DBDB680E94EF6500671A1E /* Preferences.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47DBDB690E94EF6500671A1E /* English */,
-			);
-			name = Preferences.xib;
-			sourceTree = "<group>";
-		};
-		911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				911111E10E58BD5A00BF76B4 /* English */,
-			);
-			name = RepositoryWindow.xib;
-			sourceTree = "<group>";
-		};
-		F5B721C20E05CF7E00AF29DC /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5B721C30E05CF7E00AF29DC /* English */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		26FC0A850875C7B200E6366F /* Debug */ = {
