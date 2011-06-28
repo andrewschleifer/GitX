@@ -566,7 +566,7 @@
 				913D5E5A0E5564F400CECEA2 /* PBXTargetDependency */,
 			);
 			name = GitX;
-			productInstallPath = "$(HOME)/Applications";
+			productInstallPath = "$(USER_APPS_DIR)";
 			productName = GitTest;
 			productReference = 8D1107320486CEB800E47090 /* GitX.app */;
 			productType = "com.apple.product-type.application";
@@ -771,7 +771,7 @@
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				INFOPLIST_PREPROCESS = YES;
-				INSTALL_PATH = "$(HOME)/Applications";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
 				LIBRARY_SEARCH_PATHS = (
 					libgit2/build/static,
 					"\"$(SRCROOT)/libgit2/build/static\"",
@@ -800,7 +800,7 @@
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				INFOPLIST_PREPROCESS = YES;
-				INSTALL_PATH = "$(HOME)/Applications";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
 				LIBRARY_SEARCH_PATHS = (
 					libgit2/build/static,
 					"\"$(SRCROOT)/libgit2/build/static\"",
