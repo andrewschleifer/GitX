@@ -557,10 +557,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "GitX" */;
 			buildPhases = (
-				EB76EAB613B447A600B00C04 /* Preprocess PList */,
-				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				EB76EAB613B447A600B00C04 /* Preprocess PList */,
+				8D1107290486CEB800E47090 /* Resources */,
 				F5CF04A20EAE696C00D75C81 /* Copy HTML files */,
 			);
 			buildRules = (
