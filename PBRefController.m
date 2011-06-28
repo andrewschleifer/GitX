@@ -128,7 +128,7 @@
 
 - (BOOL)tableView:(NSTableView *)aTableView
 	   acceptDrop:(id <NSDraggingInfo>)info
-			  row:(NSInteger)row
+			  row:(NSInteger)newRow
 	dropOperation:(NSTableViewDropOperation)operation
 {
 	if (operation != NSTableViewDropOn)
@@ -142,30 +142,52 @@
 	NSArray *numbers = [NSKeyedUnarchiver unarchiveObjectWithData:data];
 	int oldRow = [[numbers objectAtIndex:0] intValue];
 	int oldRefIndex = [[numbers objectAtIndex:1] intValue];
-	PBGitCommit *oldCommit = [[commitController arrangedObjects] objectAtIndex: oldRow];
+	PBGitCommit *oldCommit = [[commitController arrangedObjects] objectAtIndex:oldRow];
+	PBGitCommit *newCommit = [[commitController arrangedObjects] objectAtIndex:newRow];
 	PBGitRef *ref = [[oldCommit refs] objectAtIndex:oldRefIndex];
-	
-	PBGitCommit *dropCommit = [[commitController arrangedObjects] objectAtIndex:row];
-	
-	int a = [[NSAlert alertWithMessageText:@"Change branch"
-							 defaultButton:@"Change"
-						   alternateButton:@"Cancel"
-							   otherButton:nil
-				 informativeTextWithFormat:@"Do you want to change branch\n\n\t'%@'\n\n to point to commit\n\n\t'%@'", [ref shortName], [dropCommit subject]] runModal];
-	if (a != NSAlertDefaultReturn)
-		return NO;
-	
-	int retValue = 1;
-	[historyController.repository outputForArguments:[NSArray arrayWithObjects:@"update-ref", @"-mUpdate from GitX", [ref ref], [dropCommit realSha], NULL] retValue:&retValue];
-	if (retValue)
-		return NO;
-	
-	[dropCommit addRef:ref];
-	[oldCommit removeRef:ref];
-	
-	[commitController rearrangeObjects];
-	[aTableView needsToDrawRect:[aTableView rectOfRow:oldRow]];
+
+	NSAlert *alert = [NSAlert alertWithMessageText:@"Change branch"
+								 defaultButton:@"Change"
+							   alternateButton:@"Cancel"
+								   otherButton:nil
+					 informativeTextWithFormat:@"Do you want to change branch\n\n\t'%@'\n\n to point to commit\n\n\t'%@'", [ref shortName], [newCommit subject], nil];
+
+	NSDictionary *contextInfo = [NSDictionary dictionaryWithObjectsAndKeys:
+									[ref ref], @"ref",
+									newCommit, @"newCommit",
+									oldCommit, @"oldCommit",
+									NULL];
+
+	[alert beginSheetModalForWindow:[[historyController view] window]
+					  modalDelegate:self
+					 didEndSelector:@selector(changeBranchAlertDidEnd:returnCode:contextInfo:)
+						contextInfo:contextInfo];
 	return YES;
+}
+
+- (void) changeBranchAlertDidEnd:(NSAlert *)alert returnCode:(NSInteger)retValue contextInfo:(void *)contextInfo
+{
+	if(!retValue) // hit cancel button
+		return;
+
+	NSDictionary *context = (NSDictionary *)contextInfo;
+
+	NSArray *arguments = [NSArray arrayWithObjects:
+						  @"update-ref",
+						  @"-mUpdate from GitX",
+						  [context objectForKey:@"ref"],
+						  [[context objectForKey:@"newCommit"] realSha],
+						  NULL];
+	[historyController.repository outputForArguments:arguments
+ 											retValue:&retValue];
+
+	if(retValue) // git operation failed
+		return;
+
+	[[context objectForKey:@"newCommit"] addRef:[context objectForKey:@"ref"]];
+	[[context objectForKey:@"oldCommit"] removeRef:[context objectForKey:@"ref"]];
+	[commitController rearrangeObjects];
+	[historyController.repository reloadRefs];
 }
 
 # pragma mark Add ref methods
