@@ -131,12 +131,12 @@ var setGravatar = function(email, image) {
 	}
 
 	if (!email) {
-		image.src = "http://www.gravatar.com/avatar/?d=wavatar&s=60";
+		image.src = "http://www.gravatar.com/avatar/?d=mm&s=60";
 		return;
 	}
 
 	image.src = "http://www.gravatar.com/avatar/" +
-		hex_md5(commit.author_email.toLowerCase().replace(/ /g, "")) + "?d=wavatar&s=60";
+		hex_md5(commit.author_email.toLowerCase().replace(/ /g, "")) + "?d=mm&s=60";
 }
 
 var selectCommit = function(a) {
