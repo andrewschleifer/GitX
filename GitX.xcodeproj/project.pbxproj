@@ -281,16 +281,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */,
-				3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */,
-				F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */,
-				F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */,
-				056438B60ED0C40B00985397 /* DetailViewTemplate.png */,
-				F57240BA0E9678EA00D8EE66 /* deleted_file.png */,
-				F5E92A1A0E88550E00056E75 /* empty_file.png */,
 				32CA4F630368D1EE00C91783 /* GitX_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				F5E92A220E88569500056E75 /* new_file.png */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -298,13 +290,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				EBF8111D13BADF6A0018EB72 /* Button Icons */,
+				47DBDB920E94F47200671A1E /* Preference Icons */,
+				EBF8111E13BADFA90018EB72 /* File Icons */,
+				F50A41130EBB872D00208746 /* Widgets */,
+				D26DC6440E782C9000C777B2 /* gitx.icns */,
 				EBC5643313B5A07600DD539A /* MainMenu.xib */,
 				EBC5643413B5A07600DD539A /* Preferences.xib */,
 				EBC5643513B5A07600DD539A /* RepositoryWindow.xib */,
-				F50A41130EBB872D00208746 /* Widgets */,
-				47DBDB920E94F47200671A1E /* Preference Icons */,
-				D26DC6440E782C9000C777B2 /* gitx.icns */,
-				8D1107310486CEB800E47090 /* Info.plist */,
 				F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */,
 				F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */,
 				F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */,
@@ -341,6 +335,28 @@
 				913D5E440E55640C00CECEA2 /* gitx.m */,
 			);
 			name = cli;
+			sourceTree = "<group>";
+		};
+		EBF8111D13BADF6A0018EB72 /* Button Icons */ = {
+			isa = PBXGroup;
+			children = (
+				3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */,
+				3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */,
+				F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */,
+				F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */,
+				056438B60ED0C40B00985397 /* DetailViewTemplate.png */,
+			);
+			name = "Button Icons";
+			sourceTree = "<group>";
+		};
+		EBF8111E13BADFA90018EB72 /* File Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F57240BA0E9678EA00D8EE66 /* deleted_file.png */,
+				F5E92A1A0E88550E00056E75 /* empty_file.png */,
+				F5E92A220E88569500056E75 /* new_file.png */,
+			);
+			name = "File Icons";
 			sourceTree = "<group>";
 		};
 		F50A41130EBB872D00208746 /* Widgets */ = {
