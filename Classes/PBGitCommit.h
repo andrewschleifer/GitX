@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "PBGitRepository.h"
 #import "PBGitTree.h"
-#include "git2/oid.h"
+#include <git/oid.h>
 
 @interface PBGitCommit : NSObject {
 	git_oid sha;

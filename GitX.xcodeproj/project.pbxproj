@@ -194,7 +194,7 @@
 		F5AD56780E79B78100EDAAFE /* PBCommitList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCommitList.m; path = Classes/PBCommitList.m; sourceTree = "<group>"; };
 		F5C007730E731B48007B84B2 /* PBGitRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRef.h; path = Classes/PBGitRef.h; sourceTree = "<group>"; };
 		F5C007740E731B48007B84B2 /* PBGitRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRef.m; path = Classes/PBGitRef.m; sourceTree = "<group>"; };
-		F5C580E40EDA250900995434 /* libgit2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgit2.a; path = libgit2/build/static/libgit2.a; sourceTree = "<group>"; };
+		F5C580E40EDA250900995434 /* libgit2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgit2.a; path = libgit2/libgit2.a; sourceTree = "<group>"; };
 		F5C6F68B0E65FF9300478D97 /* PBGitLane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitLane.h; path = Classes/PBGitLane.h; sourceTree = "<group>"; };
 		F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PBGitLane.mm; path = Classes/PBGitLane.mm; sourceTree = "<group>"; };
 		F5D2DC850EA401A80034AD24 /* PBGitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitConfig.h; path = Classes/PBGitConfig.h; sourceTree = "<group>"; };
@@ -769,10 +769,7 @@
 				INFOPLIST_FILE = "GitX-Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
-				LIBRARY_SEARCH_PATHS = (
-					libgit2/build/static,
-					"\"$(SRCROOT)/libgit2/build/static\"",
-				);
+				LIBRARY_SEARCH_PATHS = ./libgit2;
 				PRODUCT_NAME = GitX;
 				USER_HEADER_SEARCH_PATHS = libgit2/include;
 				WRAPPER_EXTENSION = app;
@@ -796,10 +793,7 @@
 				INFOPLIST_FILE = "GitX-Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
-				LIBRARY_SEARCH_PATHS = (
-					libgit2/build/static,
-					"\"$(SRCROOT)/libgit2/build/static\"",
-				);
+				LIBRARY_SEARCH_PATHS = ./libgit2;
 				PRODUCT_NAME = GitX;
 				USER_HEADER_SEARCH_PATHS = libgit2/include;
 				WRAPPER_EXTENSION = app;
@@ -814,6 +808,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = DEBUG_BUILD;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./libgit2/src;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
@@ -825,6 +820,7 @@
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./libgit2/src;
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
