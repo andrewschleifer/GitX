@@ -156,7 +156,7 @@ using namespace std;
 		if (parentString.size() != 0)
 		{
 			if (((parentString.size() + 1) % 41) != 0) {
-				NSLog(@"invalid parents: %i", parentString.size());
+				NSLog(@"invalid parents: %ld", parentString.size());
 				continue;
 			}
 			int nParents = (parentString.size() + 1) / 41;
