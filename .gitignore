@@ -5,4 +5,5 @@ build/revision
 *.xcodeproj/*.mode1v3
 *.xcodeproj/*.tm_build_errors
 *.tmproj
+xcuserdata
 Nightly.app.zip
