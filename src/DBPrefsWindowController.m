@@ -1,6 +1,3 @@
-//
-//  DBPrefsWindowController.m
-//
 
 #import "DBPrefsWindowController.h"
 
@@ -407,3 +404,4 @@ static DBPrefsWindowController *_sharedPrefsWindowController = nil;
 
 
 @end
+

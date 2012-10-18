@@ -1,10 +1,3 @@
-//
-//  PBGitIndex.m
-//  GitX
-//
-//  Created by Pieter de Bie on 9/12/09.
-//  Copyright 2009 Pieter de Bie. All rights reserved.
-//
 
 #import "PBGitIndex.h"
 #import "PBGitRepository.h"

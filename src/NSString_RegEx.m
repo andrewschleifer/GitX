@@ -1,10 +1,3 @@
-//
-//  NSString_RegEx.m
-//
-//  Created by John R Chang on 2005-11-08.
-//  This code is Creative Commons Public Domain.  You may use it for any purpose whatsoever.
-//  http://creativecommons.org/licenses/publicdomain/
-//
 
 #import "NSString_RegEx.h"
 #include <regex.h>

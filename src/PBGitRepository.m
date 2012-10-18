@@ -1,10 +1,3 @@
-//
-//  PBGitRepository.m
-//  GitTest
-//
-//  Created by Pieter de Bie on 13-06-08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
 
 #import "PBGitRepository.h"
 #import "PBGitCommit.h"

@@ -1,10 +1,3 @@
-//
-//  PBCommitMessageView.m
-//  GitX
-//
-//  Created by Jeff Mesnil on 13/10/08.
-//  Copyright 2008 Jeff Mesnil (http://jmesnil.net/). All rights reserved.
-//
 
 #import "PBCommitMessageView.h"
 #import "PBGitDefaults.h"

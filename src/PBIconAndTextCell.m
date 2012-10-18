@@ -1,14 +1,5 @@
-//
-//  PBIconAndTextCell.m
-//  GitX
-//
-//  Created by Ciarán Walsh on 23/09/2008.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
-// Adopted from http://www.cocoadev.com/index.pl?NSTableViewImagesAndText
 
 #import "PBIconAndTextCell.h"
-
 
 @implementation PBIconAndTextCell
 @synthesize image;

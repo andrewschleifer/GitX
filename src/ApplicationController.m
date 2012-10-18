@@ -1,10 +1,3 @@
-//
-//  GitTest_AppDelegate.m
-//  GitTest
-//
-//  Created by Pieter de Bie on 13-06-08.
-//  Copyright __MyCompanyName__ 2008 . All rights reserved.
-//
 
 #import "ApplicationController.h"
 #import "PBGitRevisionCell.h"
@@ -334,3 +327,4 @@
     [super dealloc];
 }
 @end
+

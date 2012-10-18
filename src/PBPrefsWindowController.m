@@ -1,10 +1,3 @@
-//
-//  PBPrefsWindowController.m
-//  GitX
-//
-//  Created by Christian Jacobsen on 02/10/2008.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
 
 #import "PBPrefsWindowController.h"
 #import "PBGitRepository.h"

@@ -1,10 +1,3 @@
-//
-//  PBCLIProxy.m
-//  GitX
-//
-//  Created by Ciarán Walsh on 15/08/2008.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
-//
 
 #import "PBCLIProxy.h"
 #import "PBRepositoryDocumentController.h"

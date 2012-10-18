@@ -1,14 +1,3 @@
-/*
- *  Extension for NSFileHandle to make it capable of easy network programming
- *
- *  Version 1.0, get the newest from http://michael.stapelberg.de/NSFileHandleExt.php
- *
- *  Copyright 2007 Michael Stapelberg
- *
- *  Distributed under BSD-License, see http://michael.stapelberg.de/BSD.php
- *
- */
-
 
 #define CONN_TIMEOUT 5
 #define BUFFER_SIZE 256
@@ -81,3 +70,4 @@
 }
 
 @end
+
