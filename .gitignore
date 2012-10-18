@@ -1,5 +1,6 @@
 build
+xcuserdata
+GitX-*.zip
 *.xcodeproj/*.pbxuser
 *.xcodeproj/*.perspectivev3
 *.xcodeproj/*.mode1v3
-xcuserdata

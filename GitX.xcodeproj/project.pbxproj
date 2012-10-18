@@ -553,7 +553,6 @@
 			buildPhases = (
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				EBB67B8F1630511C0053305F /* Add Version to PList */,
 				8D1107290486CEB800E47090 /* Resources */,
 				F5CF04A20EAE696C00D75C81 /* Copy HTML files */,
 			);
@@ -642,20 +641,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		EBB67B8F1630511C0053305F /* Add Version to PList */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Add Version to PList";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "BUILD=$(git log --oneline | wc -l)\nHUMAN=$(git describe --abbrev=0)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $HUMAN\" -c \"Set :CFBundleVersion $BUILD\" resources/GitX-Info.plist\n";
-		};
 		F5CF04A20EAE696C00D75C81 /* Copy HTML files */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
