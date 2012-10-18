@@ -97,136 +97,136 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		056438B60ED0C40B00985397 /* DetailViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DetailViewTemplate.png; path = Images/DetailViewTemplate.png; sourceTree = "<group>"; };
+		056438B60ED0C40B00985397 /* DetailViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DetailViewTemplate.png; path = resources/image/DetailViewTemplate.png; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* GitX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GitX-Prefix.pch"; sourceTree = "<group>"; };
-		3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HistoryViewTemplate.png; path = Images/HistoryViewTemplate.png; sourceTree = "<group>"; };
-		3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CommitViewTemplate.png; path = Images/CommitViewTemplate.png; sourceTree = "<group>"; };
-		47DBDB560E94EDE700671A1E /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBPrefsWindowController.h; path = Classes/DBPrefsWindowController.h; sourceTree = "<group>"; };
-		47DBDB570E94EDE700671A1E /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBPrefsWindowController.m; path = Classes/DBPrefsWindowController.m; sourceTree = "<group>"; };
-		47DBDB650E94EE8B00671A1E /* PBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPrefsWindowController.h; path = Classes/PBPrefsWindowController.h; sourceTree = "<group>"; };
-		47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBPrefsWindowController.m; path = Classes/PBPrefsWindowController.m; sourceTree = "<group>"; };
-		47DBDBB00E94F6CA00671A1E /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Updates.png; path = Images/Preferences/Updates.png; sourceTree = "<group>"; };
-		47DBDBC80E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBNSURLPathUserDefaultsTransfomer.h; path = Classes/PBNSURLPathUserDefaultsTransfomer.h; sourceTree = "<group>"; };
-		47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBNSURLPathUserDefaultsTransfomer.m; path = Classes/PBNSURLPathUserDefaultsTransfomer.m; sourceTree = "<group>"; };
-		77C8280B06725ACE000B614F /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationController.h; path = Classes/ApplicationController.h; sourceTree = "<group>"; };
-		77C8280C06725ACE000B614F /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationController.m; path = Classes/ApplicationController.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* GitX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GitX-Info.plist"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GitX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GitX-Prefix.pch"; path = "src/GitX-Prefix.pch"; sourceTree = "<group>"; };
+		3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HistoryViewTemplate.png; path = resources/image/HistoryViewTemplate.png; sourceTree = "<group>"; };
+		3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CommitViewTemplate.png; path = resources/image/CommitViewTemplate.png; sourceTree = "<group>"; };
+		47DBDB560E94EDE700671A1E /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBPrefsWindowController.h; path = src/DBPrefsWindowController.h; sourceTree = "<group>"; };
+		47DBDB570E94EDE700671A1E /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBPrefsWindowController.m; path = src/DBPrefsWindowController.m; sourceTree = "<group>"; };
+		47DBDB650E94EE8B00671A1E /* PBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPrefsWindowController.h; path = src/PBPrefsWindowController.h; sourceTree = "<group>"; };
+		47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBPrefsWindowController.m; path = src/PBPrefsWindowController.m; sourceTree = "<group>"; };
+		47DBDBB00E94F6CA00671A1E /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Updates.png; path = resources/image/Updates.png; sourceTree = "<group>"; };
+		47DBDBC80E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBNSURLPathUserDefaultsTransfomer.h; path = src/PBNSURLPathUserDefaultsTransfomer.h; sourceTree = "<group>"; };
+		47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBNSURLPathUserDefaultsTransfomer.m; path = src/PBNSURLPathUserDefaultsTransfomer.m; sourceTree = "<group>"; };
+		77C8280B06725ACE000B614F /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationController.h; path = src/ApplicationController.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationController.m; path = src/ApplicationController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GitX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GitX-Info.plist"; path = "resources/GitX-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* GitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		911111F60E594F3F00BF76B4 /* PBRepositoryDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRepositoryDocumentController.h; path = Classes/PBRepositoryDocumentController.h; sourceTree = "<group>"; };
-		911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBRepositoryDocumentController.m; path = Classes/PBRepositoryDocumentController.m; sourceTree = "<group>"; };
-		913D5E440E55640C00CECEA2 /* gitx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx.m; sourceTree = "<group>"; };
+		911111F60E594F3F00BF76B4 /* PBRepositoryDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRepositoryDocumentController.h; path = src/PBRepositoryDocumentController.h; sourceTree = "<group>"; };
+		911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBRepositoryDocumentController.m; path = src/PBRepositoryDocumentController.m; sourceTree = "<group>"; };
+		913D5E440E55640C00CECEA2 /* gitx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gitx.m; path = src/gitx.m; sourceTree = "<group>"; };
 		913D5E490E55644600CECEA2 /* gitx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx; sourceTree = BUILT_PRODUCTS_DIR; };
-		913D5E5D0E556A9300CECEA2 /* PBCLIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCLIProxy.h; path = Classes/PBCLIProxy.h; sourceTree = "<group>"; };
-		913D5E5E0E556A9300CECEA2 /* PBCLIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCLIProxy.m; path = Classes/PBCLIProxy.m; sourceTree = "<group>"; };
-		91B103CA0E898EC300C84364 /* PBIconAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBIconAndTextCell.h; path = Classes/PBIconAndTextCell.h; sourceTree = "<group>"; };
-		91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBIconAndTextCell.m; path = Classes/PBIconAndTextCell.m; sourceTree = "<group>"; };
-		93CB42C00EAB7B2200530609 /* PBGitDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitDefaults.h; path = Classes/PBGitDefaults.h; sourceTree = "<group>"; };
-		93CB42C10EAB7B2200530609 /* PBGitDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitDefaults.m; path = Classes/PBGitDefaults.m; sourceTree = "<group>"; };
-		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCommitMessageView.h; path = Classes/PBCommitMessageView.h; sourceTree = "<group>"; };
-		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCommitMessageView.m; path = Classes/PBCommitMessageView.m; sourceTree = "<group>"; };
-		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitConfig.m; path = Classes/PBGitConfig.m; sourceTree = "<group>"; };
-		D26DC6440E782C9000C777B2 /* gitx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = gitx.icns; sourceTree = "<group>"; };
-		EB2A73480FEE3F09006601CF /* PBCollapsibleSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCollapsibleSplitView.h; path = Classes/PBCollapsibleSplitView.h; sourceTree = "<group>"; };
-		EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCollapsibleSplitView.m; path = Classes/PBCollapsibleSplitView.m; sourceTree = "<group>"; };
+		913D5E5D0E556A9300CECEA2 /* PBCLIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCLIProxy.h; path = src/PBCLIProxy.h; sourceTree = "<group>"; };
+		913D5E5E0E556A9300CECEA2 /* PBCLIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCLIProxy.m; path = src/PBCLIProxy.m; sourceTree = "<group>"; };
+		91B103CA0E898EC300C84364 /* PBIconAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBIconAndTextCell.h; path = src/PBIconAndTextCell.h; sourceTree = "<group>"; };
+		91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBIconAndTextCell.m; path = src/PBIconAndTextCell.m; sourceTree = "<group>"; };
+		93CB42C00EAB7B2200530609 /* PBGitDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitDefaults.h; path = src/PBGitDefaults.h; sourceTree = "<group>"; };
+		93CB42C10EAB7B2200530609 /* PBGitDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitDefaults.m; path = src/PBGitDefaults.m; sourceTree = "<group>"; };
+		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCommitMessageView.h; path = src/PBCommitMessageView.h; sourceTree = "<group>"; };
+		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCommitMessageView.m; path = src/PBCommitMessageView.m; sourceTree = "<group>"; };
+		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitConfig.m; path = src/PBGitConfig.m; sourceTree = "<group>"; };
+		D26DC6440E782C9000C777B2 /* gitx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = gitx.icns; path = resources/gitx.icns; sourceTree = "<group>"; };
+		EB2A73480FEE3F09006601CF /* PBCollapsibleSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCollapsibleSplitView.h; path = src/PBCollapsibleSplitView.h; sourceTree = "<group>"; };
+		EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCollapsibleSplitView.m; path = src/PBCollapsibleSplitView.m; sourceTree = "<group>"; };
 		EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB76EA7E13B446A600B00C04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
-		EBC5643313B5A07600DD539A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		EBC5643413B5A07600DD539A /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
-		EBC5643513B5A07600DD539A /* RepositoryWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryWindow.xib; sourceTree = "<group>"; };
-		F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterBar.tiff; path = Images/mainSplitterBar.tiff; sourceTree = "<group>"; };
-		F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterDimple.tiff; path = Images/mainSplitterDimple.tiff; sourceTree = "<group>"; };
-		F50A41210EBB875D00208746 /* PBNiceSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBNiceSplitView.h; path = Classes/PBNiceSplitView.h; sourceTree = "<group>"; };
-		F50A41220EBB875D00208746 /* PBNiceSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBNiceSplitView.m; path = Classes/PBNiceSplitView.m; sourceTree = "<group>"; };
-		F50FE0E10E07BE9600854FCD /* PBGitRevisionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRevisionCell.h; path = Classes/PBGitRevisionCell.h; sourceTree = "<group>"; };
-		F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRevisionCell.m; path = Classes/PBGitRevisionCell.m; sourceTree = "<group>"; };
-		F51308590E0740F2000C8BCD /* PBQLOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBQLOutlineView.h; path = Classes/PBQLOutlineView.h; sourceTree = "<group>"; };
-		F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBQLOutlineView.m; path = Classes/PBQLOutlineView.m; sourceTree = "<group>"; };
-		F5140DC70E8A8EB20091E9F3 /* RoundedRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundedRectangle.h; path = Classes/RoundedRectangle.h; sourceTree = "<group>"; };
-		F5140DC80E8A8EB20091E9F3 /* RoundedRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoundedRectangle.m; path = Classes/RoundedRectangle.m; sourceTree = "<group>"; };
-		F523CEB40ED3399100DDD714 /* PBGitIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitIndexController.h; path = Classes/PBGitIndexController.h; sourceTree = "<group>"; };
-		F523CEB50ED3399200DDD714 /* PBGitIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitIndexController.m; path = Classes/PBGitIndexController.m; sourceTree = "<group>"; };
-		F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitHistoryView.xib; sourceTree = "<group>"; };
-		F52BCE050E84211300AA3741 /* PBGitHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitHistoryController.h; path = Classes/PBGitHistoryController.h; sourceTree = "<group>"; };
-		F52BCE060E84211300AA3741 /* PBGitHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitHistoryController.m; path = Classes/PBGitHistoryController.m; sourceTree = "<group>"; };
-		F53C4DF50E97FC630022AD59 /* PBGitBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitBinary.h; path = Classes/PBGitBinary.h; sourceTree = "<group>"; };
-		F53C4DF60E97FC630022AD59 /* PBGitBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitBinary.m; path = Classes/PBGitBinary.m; sourceTree = "<group>"; };
-		F53EE3590E06BBA00022B925 /* CWQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWQuickLook.h; path = Classes/CWQuickLook.h; sourceTree = "<group>"; };
-		F53FF2030E7ABB5300389171 /* PBGitRevSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRevSpecifier.h; path = Classes/PBGitRevSpecifier.h; sourceTree = "<group>"; };
-		F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRevSpecifier.m; path = Classes/PBGitRevSpecifier.m; sourceTree = "<group>"; };
-		F56174550E058893001DCD79 /* PBGitTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitTree.h; path = Classes/PBGitTree.h; sourceTree = "<group>"; };
-		F56174560E058893001DCD79 /* PBGitTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitTree.m; path = Classes/PBGitTree.m; sourceTree = "<group>"; };
-		F56244070E9684B0002B6C44 /* PBUnsortableTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBUnsortableTableHeader.h; path = Classes/PBUnsortableTableHeader.h; sourceTree = "<group>"; };
-		F56244080E9684B0002B6C44 /* PBUnsortableTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBUnsortableTableHeader.m; path = Classes/PBUnsortableTableHeader.m; sourceTree = "<group>"; };
-		F562C8850FE1766C000EC528 /* NSString_RegEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString_RegEx.h; path = Classes/NSString_RegEx.h; sourceTree = "<group>"; };
-		F562C8860FE1766C000EC528 /* NSString_RegEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString_RegEx.m; path = Classes/NSString_RegEx.m; sourceTree = "<group>"; };
-		F56524B90E02D22D00F03B52 /* NSFileHandleExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFileHandleExt.m; path = Classes/NSFileHandleExt.m; sourceTree = "<group>"; };
-		F56524BA0E02D22D00F03B52 /* NSFileHandleExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSFileHandleExt.h; path = Classes/NSFileHandleExt.h; sourceTree = "<group>"; };
-		F56524EE0E02D45200F03B52 /* PBGitCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitCommit.h; path = Classes/PBGitCommit.h; sourceTree = "<group>"; };
-		F56524EF0E02D45200F03B52 /* PBGitCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitCommit.m; path = Classes/PBGitCommit.m; sourceTree = "<group>"; };
+		EBC5643313B5A07600DD539A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = resources/MainMenu.xib; sourceTree = "<group>"; };
+		EBC5643413B5A07600DD539A /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Preferences.xib; path = resources/Preferences.xib; sourceTree = "<group>"; };
+		EBC5643513B5A07600DD539A /* RepositoryWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RepositoryWindow.xib; path = resources/RepositoryWindow.xib; sourceTree = "<group>"; };
+		F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterBar.tiff; path = resources/image/mainSplitterBar.tiff; sourceTree = "<group>"; };
+		F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterDimple.tiff; path = resources/image/mainSplitterDimple.tiff; sourceTree = "<group>"; };
+		F50A41210EBB875D00208746 /* PBNiceSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBNiceSplitView.h; path = src/PBNiceSplitView.h; sourceTree = "<group>"; };
+		F50A41220EBB875D00208746 /* PBNiceSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBNiceSplitView.m; path = src/PBNiceSplitView.m; sourceTree = "<group>"; };
+		F50FE0E10E07BE9600854FCD /* PBGitRevisionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRevisionCell.h; path = src/PBGitRevisionCell.h; sourceTree = "<group>"; };
+		F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRevisionCell.m; path = src/PBGitRevisionCell.m; sourceTree = "<group>"; };
+		F51308590E0740F2000C8BCD /* PBQLOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBQLOutlineView.h; path = src/PBQLOutlineView.h; sourceTree = "<group>"; };
+		F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBQLOutlineView.m; path = src/PBQLOutlineView.m; sourceTree = "<group>"; };
+		F5140DC70E8A8EB20091E9F3 /* RoundedRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundedRectangle.h; path = src/RoundedRectangle.h; sourceTree = "<group>"; };
+		F5140DC80E8A8EB20091E9F3 /* RoundedRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoundedRectangle.m; path = src/RoundedRectangle.m; sourceTree = "<group>"; };
+		F523CEB40ED3399100DDD714 /* PBGitIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitIndexController.h; path = src/PBGitIndexController.h; sourceTree = "<group>"; };
+		F523CEB50ED3399200DDD714 /* PBGitIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitIndexController.m; path = src/PBGitIndexController.m; sourceTree = "<group>"; };
+		F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PBGitHistoryView.xib; path = resources/PBGitHistoryView.xib; sourceTree = "<group>"; };
+		F52BCE050E84211300AA3741 /* PBGitHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitHistoryController.h; path = src/PBGitHistoryController.h; sourceTree = "<group>"; };
+		F52BCE060E84211300AA3741 /* PBGitHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitHistoryController.m; path = src/PBGitHistoryController.m; sourceTree = "<group>"; };
+		F53C4DF50E97FC630022AD59 /* PBGitBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitBinary.h; path = src/PBGitBinary.h; sourceTree = "<group>"; };
+		F53C4DF60E97FC630022AD59 /* PBGitBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitBinary.m; path = src/PBGitBinary.m; sourceTree = "<group>"; };
+		F53EE3590E06BBA00022B925 /* CWQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWQuickLook.h; path = src/CWQuickLook.h; sourceTree = "<group>"; };
+		F53FF2030E7ABB5300389171 /* PBGitRevSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRevSpecifier.h; path = src/PBGitRevSpecifier.h; sourceTree = "<group>"; };
+		F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRevSpecifier.m; path = src/PBGitRevSpecifier.m; sourceTree = "<group>"; };
+		F56174550E058893001DCD79 /* PBGitTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitTree.h; path = src/PBGitTree.h; sourceTree = "<group>"; };
+		F56174560E058893001DCD79 /* PBGitTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitTree.m; path = src/PBGitTree.m; sourceTree = "<group>"; };
+		F56244070E9684B0002B6C44 /* PBUnsortableTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBUnsortableTableHeader.h; path = src/PBUnsortableTableHeader.h; sourceTree = "<group>"; };
+		F56244080E9684B0002B6C44 /* PBUnsortableTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBUnsortableTableHeader.m; path = src/PBUnsortableTableHeader.m; sourceTree = "<group>"; };
+		F562C8850FE1766C000EC528 /* NSString_RegEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString_RegEx.h; path = src/NSString_RegEx.h; sourceTree = "<group>"; };
+		F562C8860FE1766C000EC528 /* NSString_RegEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString_RegEx.m; path = src/NSString_RegEx.m; sourceTree = "<group>"; };
+		F56524B90E02D22D00F03B52 /* NSFileHandleExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFileHandleExt.m; path = src/NSFileHandleExt.m; sourceTree = "<group>"; };
+		F56524BA0E02D22D00F03B52 /* NSFileHandleExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSFileHandleExt.h; path = src/NSFileHandleExt.h; sourceTree = "<group>"; };
+		F56524EE0E02D45200F03B52 /* PBGitCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitCommit.h; path = src/PBGitCommit.h; sourceTree = "<group>"; };
+		F56524EF0E02D45200F03B52 /* PBGitCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitCommit.m; path = src/PBGitCommit.m; sourceTree = "<group>"; };
 		F56526230E03D85900F03B52 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
-		F56526290E03D89B00F03B52 /* PBWebHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebHistoryController.h; path = Classes/PBWebHistoryController.h; sourceTree = "<group>"; };
-		F565262A0E03D89B00F03B52 /* PBWebHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebHistoryController.m; path = Classes/PBWebHistoryController.m; sourceTree = "<group>"; };
-		F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddBranchTemplate.png; path = Images/AddBranchTemplate.png; sourceTree = "<group>"; };
-		F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddLabelTemplate.png; path = Images/AddLabelTemplate.png; sourceTree = "<group>"; };
-		F56CC7270E65E0AD004307B4 /* PBGitGraphLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitGraphLine.h; path = Classes/PBGitGraphLine.h; sourceTree = "<group>"; };
-		F56CC7300E65E0E5004307B4 /* PBGraphCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGraphCellInfo.h; path = Classes/PBGraphCellInfo.h; sourceTree = "<group>"; };
-		F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGraphCellInfo.m; path = Classes/PBGraphCellInfo.m; sourceTree = "<group>"; };
-		F57240BA0E9678EA00D8EE66 /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleted_file.png; path = Images/deleted_file.png; sourceTree = "<group>"; };
-		F574A2830EAE2EAC003F2CB1 /* PBRefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRefController.h; path = Classes/PBRefController.h; sourceTree = "<group>"; };
-		F574A2840EAE2EAC003F2CB1 /* PBRefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBRefController.m; path = Classes/PBRefController.m; sourceTree = "<group>"; };
-		F57CC38F0E05DDF2000472E2 /* PBEasyPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBEasyPipe.h; path = Classes/PBEasyPipe.h; sourceTree = "<group>"; };
-		F57CC3900E05DDF2000472E2 /* PBEasyPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBEasyPipe.m; path = Classes/PBEasyPipe.m; sourceTree = "<group>"; };
-		F57CC43F0E05E496000472E2 /* PBGitWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitWindowController.h; path = Classes/PBGitWindowController.h; sourceTree = "<group>"; };
-		F57CC4400E05E496000472E2 /* PBGitWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitWindowController.m; path = Classes/PBGitWindowController.m; sourceTree = "<group>"; };
-		F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitCommitView.xib; sourceTree = "<group>"; };
-		F59116E70E843BCB0072CCB1 /* PBGitCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitCommitController.h; path = Classes/PBGitCommitController.h; sourceTree = "<group>"; };
-		F59116E80E843BCB0072CCB1 /* PBGitCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitCommitController.m; path = Classes/PBGitCommitController.m; sourceTree = "<group>"; };
-		F593DF760E9E636C003A8559 /* PBFileChangesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFileChangesTableView.h; path = Classes/PBFileChangesTableView.h; sourceTree = "<group>"; };
-		F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFileChangesTableView.m; path = Classes/PBFileChangesTableView.m; sourceTree = "<group>"; };
-		F5945E150E02B0C200706420 /* PBGitRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRepository.h; path = Classes/PBGitRepository.h; sourceTree = "<group>"; };
-		F5945E160E02B0C200706420 /* PBGitRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRepository.m; path = Classes/PBGitRepository.m; sourceTree = "<group>"; };
-		F59F1DD3105C4FF300115F88 /* PBGitIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitIndex.h; path = Classes/PBGitIndex.h; sourceTree = "<group>"; };
-		F59F1DD4105C4FF300115F88 /* PBGitIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitIndex.m; path = Classes/PBGitIndex.m; sourceTree = "<group>"; };
-		F5AD56770E79B78100EDAAFE /* PBCommitList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCommitList.h; path = Classes/PBCommitList.h; sourceTree = "<group>"; };
-		F5AD56780E79B78100EDAAFE /* PBCommitList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCommitList.m; path = Classes/PBCommitList.m; sourceTree = "<group>"; };
-		F5C007730E731B48007B84B2 /* PBGitRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRef.h; path = Classes/PBGitRef.h; sourceTree = "<group>"; };
-		F5C007740E731B48007B84B2 /* PBGitRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRef.m; path = Classes/PBGitRef.m; sourceTree = "<group>"; };
-		F5C580E40EDA250900995434 /* libgit2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgit2.a; path = libgit2/libgit2.a; sourceTree = "<group>"; };
-		F5C6F68B0E65FF9300478D97 /* PBGitLane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitLane.h; path = Classes/PBGitLane.h; sourceTree = "<group>"; };
-		F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PBGitLane.mm; path = Classes/PBGitLane.mm; sourceTree = "<group>"; };
-		F5D2DC850EA401A80034AD24 /* PBGitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitConfig.h; path = Classes/PBGitConfig.h; sourceTree = "<group>"; };
-		F5D619ED0EAE62EA00341D73 /* html */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
-		F5DFFA6A0E075D8800617813 /* PBEasyFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBEasyFS.h; path = Classes/PBEasyFS.h; sourceTree = "<group>"; };
-		F5DFFA6B0E075D8800617813 /* PBEasyFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBEasyFS.m; path = Classes/PBEasyFS.m; sourceTree = "<group>"; };
-		F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBDiffWindow.xib; sourceTree = "<group>"; };
-		F5E424130EA3E4E10046E362 /* PBDiffWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBDiffWindowController.m; path = Classes/PBDiffWindowController.m; sourceTree = "<group>"; };
-		F5E424140EA3E4E10046E362 /* PBDiffWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBDiffWindowController.h; path = Classes/PBDiffWindowController.h; sourceTree = "<group>"; };
-		F5E424160EA3E4EB0046E362 /* PBWebDiffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebDiffController.m; path = Classes/PBWebDiffController.m; sourceTree = "<group>"; };
-		F5E424170EA3E4EB0046E362 /* PBWebDiffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebDiffController.h; path = Classes/PBWebDiffController.h; sourceTree = "<group>"; };
-		F5E926040E8827D300056E75 /* PBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBViewController.h; path = Classes/PBViewController.h; sourceTree = "<group>"; };
-		F5E926050E8827D300056E75 /* PBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBViewController.m; path = Classes/PBViewController.m; sourceTree = "<group>"; };
-		F5E927F60E883E7200056E75 /* PBChangedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBChangedFile.h; path = Classes/PBChangedFile.h; sourceTree = "<group>"; };
-		F5E927F70E883E7200056E75 /* PBChangedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBChangedFile.m; path = Classes/PBChangedFile.m; sourceTree = "<group>"; };
-		F5E927FA0E883F0700056E75 /* PBWebChangesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebChangesController.h; path = Classes/PBWebChangesController.h; sourceTree = "<group>"; };
-		F5E927FB0E883F0700056E75 /* PBWebChangesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebChangesController.m; path = Classes/PBWebChangesController.m; sourceTree = "<group>"; };
-		F5E92A1A0E88550E00056E75 /* empty_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty_file.png; path = Images/empty_file.png; sourceTree = "<group>"; };
-		F5E92A220E88569500056E75 /* new_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_file.png; path = Images/new_file.png; sourceTree = "<group>"; };
-		F5EF8C8C0E9D4A5D0050906B /* PBWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebController.h; path = Classes/PBWebController.h; sourceTree = "<group>"; };
-		F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebController.m; path = Classes/PBWebController.m; sourceTree = "<group>"; };
-		F5FC41F20EBCBD4300191D80 /* PBGitXProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitXProtocol.h; path = Classes/PBGitXProtocol.h; sourceTree = "<group>"; };
-		F5FC41F30EBCBD4300191D80 /* PBGitXProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitXProtocol.m; path = Classes/PBGitXProtocol.m; sourceTree = "<group>"; };
-		F5FC43C30EBD050800191D80 /* PBRefContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRefContextDelegate.h; path = Classes/PBRefContextDelegate.h; sourceTree = "<group>"; };
-		F5FC43FC0EBD08EE00191D80 /* PBRefMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRefMenuItem.h; path = Classes/PBRefMenuItem.h; sourceTree = "<group>"; };
-		F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBRefMenuItem.m; path = Classes/PBRefMenuItem.m; sourceTree = "<group>"; };
-		F5FE6C010EB13BC900F30D12 /* PBServicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBServicesController.h; path = Classes/PBServicesController.h; sourceTree = "<group>"; };
-		F5FE6C020EB13BC900F30D12 /* PBServicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBServicesController.m; path = Classes/PBServicesController.m; sourceTree = "<group>"; };
-		F5FF4E160E0829C20006317A /* PBGitRevList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRevList.h; path = Classes/PBGitRevList.h; sourceTree = "<group>"; };
-		F5FF4E170E0829C20006317A /* PBGitRevList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PBGitRevList.mm; path = Classes/PBGitRevList.mm; sourceTree = "<group>"; };
-		F5FF4E780E082E440006317A /* PBGitGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitGrapher.h; path = Classes/PBGitGrapher.h; sourceTree = "<group>"; };
-		F5FF4E790E082E440006317A /* PBGitGrapher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PBGitGrapher.mm; path = Classes/PBGitGrapher.mm; sourceTree = "<group>"; };
+		F56526290E03D89B00F03B52 /* PBWebHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebHistoryController.h; path = src/PBWebHistoryController.h; sourceTree = "<group>"; };
+		F565262A0E03D89B00F03B52 /* PBWebHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebHistoryController.m; path = src/PBWebHistoryController.m; sourceTree = "<group>"; };
+		F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddBranchTemplate.png; path = resources/image/AddBranchTemplate.png; sourceTree = "<group>"; };
+		F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddLabelTemplate.png; path = resources/image/AddLabelTemplate.png; sourceTree = "<group>"; };
+		F56CC7270E65E0AD004307B4 /* PBGitGraphLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitGraphLine.h; path = src/PBGitGraphLine.h; sourceTree = "<group>"; };
+		F56CC7300E65E0E5004307B4 /* PBGraphCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGraphCellInfo.h; path = src/PBGraphCellInfo.h; sourceTree = "<group>"; };
+		F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGraphCellInfo.m; path = src/PBGraphCellInfo.m; sourceTree = "<group>"; };
+		F57240BA0E9678EA00D8EE66 /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleted_file.png; path = resources/image/deleted_file.png; sourceTree = "<group>"; };
+		F574A2830EAE2EAC003F2CB1 /* PBRefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRefController.h; path = src/PBRefController.h; sourceTree = "<group>"; };
+		F574A2840EAE2EAC003F2CB1 /* PBRefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBRefController.m; path = src/PBRefController.m; sourceTree = "<group>"; };
+		F57CC38F0E05DDF2000472E2 /* PBEasyPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBEasyPipe.h; path = src/PBEasyPipe.h; sourceTree = "<group>"; };
+		F57CC3900E05DDF2000472E2 /* PBEasyPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBEasyPipe.m; path = src/PBEasyPipe.m; sourceTree = "<group>"; };
+		F57CC43F0E05E496000472E2 /* PBGitWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitWindowController.h; path = src/PBGitWindowController.h; sourceTree = "<group>"; };
+		F57CC4400E05E496000472E2 /* PBGitWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitWindowController.m; path = src/PBGitWindowController.m; sourceTree = "<group>"; };
+		F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PBGitCommitView.xib; path = resources/PBGitCommitView.xib; sourceTree = "<group>"; };
+		F59116E70E843BCB0072CCB1 /* PBGitCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitCommitController.h; path = src/PBGitCommitController.h; sourceTree = "<group>"; };
+		F59116E80E843BCB0072CCB1 /* PBGitCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitCommitController.m; path = src/PBGitCommitController.m; sourceTree = "<group>"; };
+		F593DF760E9E636C003A8559 /* PBFileChangesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFileChangesTableView.h; path = src/PBFileChangesTableView.h; sourceTree = "<group>"; };
+		F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFileChangesTableView.m; path = src/PBFileChangesTableView.m; sourceTree = "<group>"; };
+		F5945E150E02B0C200706420 /* PBGitRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRepository.h; path = src/PBGitRepository.h; sourceTree = "<group>"; };
+		F5945E160E02B0C200706420 /* PBGitRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRepository.m; path = src/PBGitRepository.m; sourceTree = "<group>"; };
+		F59F1DD3105C4FF300115F88 /* PBGitIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitIndex.h; path = src/PBGitIndex.h; sourceTree = "<group>"; };
+		F59F1DD4105C4FF300115F88 /* PBGitIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitIndex.m; path = src/PBGitIndex.m; sourceTree = "<group>"; };
+		F5AD56770E79B78100EDAAFE /* PBCommitList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCommitList.h; path = src/PBCommitList.h; sourceTree = "<group>"; };
+		F5AD56780E79B78100EDAAFE /* PBCommitList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCommitList.m; path = src/PBCommitList.m; sourceTree = "<group>"; };
+		F5C007730E731B48007B84B2 /* PBGitRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRef.h; path = src/PBGitRef.h; sourceTree = "<group>"; };
+		F5C007740E731B48007B84B2 /* PBGitRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRef.m; path = src/PBGitRef.m; sourceTree = "<group>"; };
+		F5C580E40EDA250900995434 /* libgit2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgit2.a; path = vendor/libgit/libgit2.a; sourceTree = "<group>"; };
+		F5C6F68B0E65FF9300478D97 /* PBGitLane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitLane.h; path = src/PBGitLane.h; sourceTree = "<group>"; };
+		F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PBGitLane.mm; path = src/PBGitLane.mm; sourceTree = "<group>"; };
+		F5D2DC850EA401A80034AD24 /* PBGitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitConfig.h; path = src/PBGitConfig.h; sourceTree = "<group>"; };
+		F5D619ED0EAE62EA00341D73 /* html */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; name = html; path = resources/html; sourceTree = "<group>"; };
+		F5DFFA6A0E075D8800617813 /* PBEasyFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBEasyFS.h; path = src/PBEasyFS.h; sourceTree = "<group>"; };
+		F5DFFA6B0E075D8800617813 /* PBEasyFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBEasyFS.m; path = src/PBEasyFS.m; sourceTree = "<group>"; };
+		F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PBDiffWindow.xib; path = resources/PBDiffWindow.xib; sourceTree = "<group>"; };
+		F5E424130EA3E4E10046E362 /* PBDiffWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBDiffWindowController.m; path = src/PBDiffWindowController.m; sourceTree = "<group>"; };
+		F5E424140EA3E4E10046E362 /* PBDiffWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBDiffWindowController.h; path = src/PBDiffWindowController.h; sourceTree = "<group>"; };
+		F5E424160EA3E4EB0046E362 /* PBWebDiffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebDiffController.m; path = src/PBWebDiffController.m; sourceTree = "<group>"; };
+		F5E424170EA3E4EB0046E362 /* PBWebDiffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebDiffController.h; path = src/PBWebDiffController.h; sourceTree = "<group>"; };
+		F5E926040E8827D300056E75 /* PBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBViewController.h; path = src/PBViewController.h; sourceTree = "<group>"; };
+		F5E926050E8827D300056E75 /* PBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBViewController.m; path = src/PBViewController.m; sourceTree = "<group>"; };
+		F5E927F60E883E7200056E75 /* PBChangedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBChangedFile.h; path = src/PBChangedFile.h; sourceTree = "<group>"; };
+		F5E927F70E883E7200056E75 /* PBChangedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBChangedFile.m; path = src/PBChangedFile.m; sourceTree = "<group>"; };
+		F5E927FA0E883F0700056E75 /* PBWebChangesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebChangesController.h; path = src/PBWebChangesController.h; sourceTree = "<group>"; };
+		F5E927FB0E883F0700056E75 /* PBWebChangesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebChangesController.m; path = src/PBWebChangesController.m; sourceTree = "<group>"; };
+		F5E92A1A0E88550E00056E75 /* empty_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty_file.png; path = resources/image/empty_file.png; sourceTree = "<group>"; };
+		F5E92A220E88569500056E75 /* new_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_file.png; path = resources/image/new_file.png; sourceTree = "<group>"; };
+		F5EF8C8C0E9D4A5D0050906B /* PBWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebController.h; path = src/PBWebController.h; sourceTree = "<group>"; };
+		F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebController.m; path = src/PBWebController.m; sourceTree = "<group>"; };
+		F5FC41F20EBCBD4300191D80 /* PBGitXProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitXProtocol.h; path = src/PBGitXProtocol.h; sourceTree = "<group>"; };
+		F5FC41F30EBCBD4300191D80 /* PBGitXProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitXProtocol.m; path = src/PBGitXProtocol.m; sourceTree = "<group>"; };
+		F5FC43C30EBD050800191D80 /* PBRefContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRefContextDelegate.h; path = src/PBRefContextDelegate.h; sourceTree = "<group>"; };
+		F5FC43FC0EBD08EE00191D80 /* PBRefMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBRefMenuItem.h; path = src/PBRefMenuItem.h; sourceTree = "<group>"; };
+		F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBRefMenuItem.m; path = src/PBRefMenuItem.m; sourceTree = "<group>"; };
+		F5FE6C010EB13BC900F30D12 /* PBServicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBServicesController.h; path = src/PBServicesController.h; sourceTree = "<group>"; };
+		F5FE6C020EB13BC900F30D12 /* PBServicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBServicesController.m; path = src/PBServicesController.m; sourceTree = "<group>"; };
+		F5FF4E160E0829C20006317A /* PBGitRevList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRevList.h; path = src/PBGitRevList.h; sourceTree = "<group>"; };
+		F5FF4E170E0829C20006317A /* PBGitRevList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PBGitRevList.mm; path = src/PBGitRevList.mm; sourceTree = "<group>"; };
+		F5FF4E780E082E440006317A /* PBGitGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitGrapher.h; path = src/PBGitGrapher.h; sourceTree = "<group>"; };
+		F5FF4E790E082E440006317A /* PBGitGrapher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PBGitGrapher.mm; path = src/PBGitGrapher.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,7 +269,6 @@
 				F57CC43E0E05E472000472E2 /* Aux */,
 				F57CC3850E05DDC1000472E2 /* Controllers */,
 				F56174540E05887E001DCD79 /* Git */,
-				F5D619ED0EAE62EA00341D73 /* html */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -290,6 +289,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F5D619ED0EAE62EA00341D73 /* html */,
 				8D1107310486CEB800E47090 /* GitX-Info.plist */,
 				EBF8111D13BADF6A0018EB72 /* Button Icons */,
 				47DBDB920E94F47200671A1E /* Preference Icons */,
@@ -654,7 +654,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "BUILD=$(git log --oneline | wc -l)\nHUMAN=$(git describe --abbrev=0)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $HUMAN\" -c \"Set :CFBundleVersion $BUILD\" GitX-Info.plist\n";
+			shellScript = "BUILD=$(git log --oneline | wc -l)\nHUMAN=$(git describe --abbrev=0)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $HUMAN\" -c \"Set :CFBundleVersion $BUILD\" resources/GitX-Info.plist\n";
 		};
 		F5CF04A20EAE696C00D75C81 /* Copy HTML files */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -669,7 +669,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "resource_path=\"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"\nrm -rf \"$resource_path/html\"\ncp -r html \"$resource_path\"";
+			shellScript = "resource_path=\"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"\nrm -rf \"$resource_path/html\"\ncp -r resources/html \"$resource_path\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -756,20 +756,16 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GitX-Prefix.pch";
-				INFOPLIST_FILE = "GitX-Info.plist";
-				LIBRARY_SEARCH_PATHS = ./libgit2;
+				GCC_PREFIX_HEADER = "src/GitX-Prefix.pch";
+				HEADER_SEARCH_PATHS = ./vendor/libgit2/src;
+				INFOPLIST_FILE = "resources/GitX-Info.plist";
+				LIBRARY_SEARCH_PATHS = ./vendor/libgit2;
 				PRODUCT_NAME = GitX;
-				USER_HEADER_SEARCH_PATHS = libgit2/include;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -779,19 +775,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GitX-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/GitX-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
-				INFOPLIST_FILE = "GitX-Info.plist";
-				LIBRARY_SEARCH_PATHS = ./libgit2;
+				HEADER_SEARCH_PATHS = ./vendor/libgit2/src;
+				INFOPLIST_FILE = "resources/GitX-Info.plist";
+				LIBRARY_SEARCH_PATHS = ./vendor/libgit2;
 				PRODUCT_NAME = GitX;
-				USER_HEADER_SEARCH_PATHS = libgit2/include;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -804,7 +796,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = DEBUG_BUILD;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ./libgit2/src;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
@@ -816,7 +807,6 @@
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ./libgit2/src;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;

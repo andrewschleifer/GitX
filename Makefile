@@ -1,4 +1,4 @@
-SOURCE=Classes/*
+SOURCE=src/*
 
 app: $(SOURCE)
 	xcodebuild build OBJROOT=build SYMROOT=build
