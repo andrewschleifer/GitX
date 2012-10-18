@@ -1,0 +1,65 @@
+
+GitX (GPLv2)
+* Pieter de Bie 
+* Anders Carling 
+* Andrew Schleifer 
+* Arjen Laarhoven 
+* Aron Cedercrantz 
+* Ben Alpert 
+* Ben Walding 
+* Benjamin Kramer 
+* Benoit Cerrina 
+* Bernard Leach 
+* Blake Lucchesi 
+* Bob Aman 
+* Bryce Kerley 
+* Caius Durling 
+* Charles O'Rourke 
+* Christian Jacobsen 
+* Ciarán Walsh 
+* Daniel Lundqvist 
+* Douglas Creager 
+* Erin McKean 
+* Etienne Samson 
+* Felix Holmgren 
+* Frederic Barthelemy 
+* Gerd Knops 
+* Ivan Baktsheev (apla)
+* JD Smith 
+* Jean-Paul van Oosten 
+* Jeff Mesnil 
+* Jeremy Sanderson 
+* Joe Fiorini 
+* Johannes Gilger 
+* Kevin Ballard 
+* Kim Does 
+* Mark Bestley 
+* Martin Svangren 
+* Michael Stephens 
+* Michiel Holtkamp 
+* Mike Czepiel 
+* Nathan Kinsinger 
+* Nicholas Riley 
+* Nick Zitzmann 
+* Owen Yamauchi 
+* Rick Berry 
+* Rufus Cable 
+* Sebastian Staudt 
+* Stephen Bannasch 
+* Stephen Celis 
+* Steven Michalske 
+* Stonewall Ballard 
+* Till Salzer 
+* Travis Cline 
+* Vijay Kiran 
+* dbr/Ben
+
+NSString+Regex (CC0)
+* John R Chang
+
+DBPrefsWindowController (CC-BY-3.0)
+* Dave Batton
+
+NSFileHandleExt (BSD)
+* Michael Stapelberg
+
