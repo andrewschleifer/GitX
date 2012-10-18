@@ -26,17 +26,8 @@
 	if ([event modifierFlags] & NSShiftKeyMask && [event modifierFlags] & NSCommandKeyMask && ([event keyCode] == 0x7E || [event keyCode] == 0x7D)) {
 		[self.nextResponder keyDown:event];
 		return;
-  }
+	}
 
-  if ([event keyCode] == 116) {
-    [webView scrollPageUp:self];
-    return;
-  } else if ([event keyCode] == 121) {
-    [webView scrollPageDown:self];
-    return;
-  }
-
-  
 	if ([character isEqualToString:@" "])
 	{
 		if ([event modifierFlags] & NSShiftKeyMask)
