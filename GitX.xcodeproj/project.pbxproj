@@ -553,7 +553,7 @@
 			buildPhases = (
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				EB76EAB613B447A600B00C04 /* Preprocess PList */,
+				EBB67B8F1630511C0053305F /* Add Version to PList */,
 				8D1107290486CEB800E47090 /* Resources */,
 				F5CF04A20EAE696C00D75C81 /* Copy HTML files */,
 			);
@@ -642,19 +642,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		EB76EAB613B447A600B00C04 /* Preprocess PList */ = {
+		EBB67B8F1630511C0053305F /* Add Version to PList */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Preprocess PList";
+			name = "Add Version to PList";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export PATH=$PATH:$HOME/bin:$HOME/local/bin:/sw/bin:/opt/local/bin:`\"$TARGET_BUILD_DIR\"/gitx --git-path`\nVERSION=$(cd \"$PROJECT_DIR\";git describe)\nLONG_VERSION=$(echo $VERSION | sed -e \"s/\\-/\\./\" -e \"s/^v//\" -e \"s/-.*//\")\nSHORT_VERSION=$(echo $VERSION | sed -e \"s/\\-.*//\" -e \"s/^v//\")\n\necho -n \"#define LONG_VERSION $LONG_VERSION\n#define GIT_VERSION $VERSION\n#define SHORT_VERSION $SHORT_VERSION\" > \"$PROJECT_TEMP_DIR/revision\"\ntouch GitX-Info.plist";
+			shellPath = /bin/bash;
+			shellScript = "BUILD=$(git log --oneline | wc -l)\nHUMAN=$(git describe --abbrev=0)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $HUMAN\" -c \"Set :CFBundleVersion $BUILD\" GitX-Info.plist\n";
 		};
 		F5CF04A20EAE696C00D75C81 /* Copy HTML files */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -767,8 +767,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GitX-Prefix.pch";
 				INFOPLIST_FILE = "GitX-Info.plist";
-				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
-				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				LIBRARY_SEARCH_PATHS = ./libgit2;
 				PRODUCT_NAME = GitX;
 				USER_HEADER_SEARCH_PATHS = libgit2/include;
@@ -791,8 +789,6 @@
 				GCC_PREFIX_HEADER = "GitX-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = "GitX-Info.plist";
-				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
-				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				LIBRARY_SEARCH_PATHS = ./libgit2;
 				PRODUCT_NAME = GitX;
 				USER_HEADER_SEARCH_PATHS = libgit2/include;
@@ -821,7 +817,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ./libgit2/src;
-				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;

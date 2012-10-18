@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -44,18 +42,18 @@
 	<string>nl.frim.GitX</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>v0.7.1-105-g485f034</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>844</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2008-2011 Various Artists</string>
-	<key>CFBundleVersion</key>
-	<string>LONG_VERSION</string>
-	<key>CFBundleGitVersion</key>
-	<string>GIT_VERSION</string>
-	<key>CFBundleShortVersionString</key>
-	<string>SHORT_VERSION</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -68,6 +66,13 @@
 				<key>default</key>
 				<string>&amp;</string>
 			</dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Complete SHA1</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>completeSha</string>
 			<key>NSPortName</key>
 			<string>GitX</string>
 			<key>NSReturnTypes</key>
@@ -78,13 +83,6 @@
 			<array>
 				<string>NSStringPboardType</string>
 			</array>
-			<key>NSMessage</key>
-			<string>completeSha</string>
-			<key>NSMenuItem</key>
-			<dict>
-				<key>default</key>
-				<string>Complete SHA1</string>
-			</dict>
 		</dict>
 	</array>
 </dict>
