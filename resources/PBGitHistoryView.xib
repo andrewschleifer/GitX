@@ -1026,6 +1026,7 @@ wGw</bytes>
 																	<int key="NSvFlags">256</int>
 																	<string key="NSFrame">{{627, 1}, {15, 186}}</string>
 																	<reference key="NSSuperview" ref="630571485"/>
+																	<reference key="NSNextKeyView" ref="555671215"/>
 																	<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 																	<reference key="NSTarget" ref="630571485"/>
 																	<string key="NSAction">_doScroller:</string>
@@ -1711,6 +1712,14 @@ wGw</bytes>
 					<int key="connectionID">107</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">nextKeyView</string>
+						<reference key="source" ref="663765878"/>
+						<reference key="destination" ref="135073984"/>
+					</object>
+					<int key="connectionID">292</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">selectedIndex: selectedTab</string>
 						<reference key="source" ref="135073984"/>
@@ -1725,6 +1734,14 @@ wGw</bytes>
 						</object>
 					</object>
 					<int key="connectionID">80</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">nextKeyView</string>
+						<reference key="source" ref="630571485"/>
+						<reference key="destination" ref="663765878"/>
+					</object>
+					<int key="connectionID">303</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -3003,7 +3020,7 @@ wGw</bytes>
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">291</int>
+			<int key="maxID">303</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
