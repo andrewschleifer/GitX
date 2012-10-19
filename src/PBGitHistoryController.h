@@ -9,16 +9,15 @@
 #import <Cocoa/Cocoa.h>
 #import "PBGitCommit.h"
 #import "PBGitTree.h"
-#import "PBViewController.h"
-#import "PBCollapsibleSplitView.h"
+#import "PBSplitViewController.h"
 
-@interface PBGitHistoryController : PBViewController {
+@interface PBGitHistoryController : PBSplitViewController {
 	IBOutlet NSSearchField *searchField;
 	IBOutlet NSArrayController* commitController;
 	IBOutlet NSTreeController* treeController;
 	IBOutlet NSOutlineView* fileBrowser;
 	IBOutlet NSTableView* commitList;
-	IBOutlet PBCollapsibleSplitView *historySplitView;
+	IBOutlet NSSplitView *historySplitView;
 
 	IBOutlet id webView;
 	int selectedTab;
@@ -56,10 +55,5 @@
 - (BOOL) hasNonlinearPath;
 
 - (NSMenu *)tableColumnMenu;
-
-- (BOOL)splitView:(NSSplitView *)sender canCollapseSubview:(NSView *)subview;
-- (BOOL)splitView:(NSSplitView *)splitView shouldCollapseSubview:(NSView *)subview forDoubleClickOnDividerAtIndex:(NSInteger)dividerIndex;
-- (CGFloat)splitView:(NSSplitView *)sender constrainMinCoordinate:(CGFloat)proposedMin ofSubviewAt:(NSInteger)offset;
-- (CGFloat)splitView:(NSSplitView *)sender constrainMaxCoordinate:(CGFloat)proposedMax ofSubviewAt:(NSInteger)offset;
 
 @end

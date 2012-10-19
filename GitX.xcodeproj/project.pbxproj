@@ -25,16 +25,13 @@
 		93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB42C10EAB7B2200530609 /* PBGitDefaults.m */; };
 		93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */; };
 		D26DC6450E782C9000C777B2 /* gitx.icns in Resources */ = {isa = PBXBuildFile; fileRef = D26DC6440E782C9000C777B2 /* gitx.icns */; };
-		EB2A734A0FEE3F09006601CF /* PBCollapsibleSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */; };
+		EB66CEBE1631B8C80034F526 /* PBSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB66CEBD1631B8C80034F526 /* PBSplitViewController.m */; };
 		EB76EA3B13B4467700B00C04 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */; };
 		EB76EA7F13B446A600B00C04 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EA7E13B446A600B00C04 /* Security.framework */; };
 		EB76EB6013B4CB6C00B00C04 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */; };
 		EBC5643613B5A07600DD539A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC5643313B5A07600DD539A /* MainMenu.xib */; };
 		EBC5643713B5A07600DD539A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC5643413B5A07600DD539A /* Preferences.xib */; };
 		EBC5643813B5A07600DD539A /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC5643513B5A07600DD539A /* RepositoryWindow.xib */; };
-		F50A411F0EBB874C00208746 /* mainSplitterBar.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */; };
-		F50A41200EBB874C00208746 /* mainSplitterDimple.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */; };
-		F50A41230EBB875D00208746 /* PBNiceSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50A41220EBB875D00208746 /* PBNiceSplitView.m */; };
 		F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */; };
 		F513085B0E0740F2000C8BCD /* PBQLOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */; };
 		F5140DC90E8A8EB20091E9F3 /* RoundedRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = F5140DC80E8A8EB20091E9F3 /* RoundedRectangle.m */; };
@@ -128,18 +125,14 @@
 		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCommitMessageView.m; path = src/PBCommitMessageView.m; sourceTree = "<group>"; };
 		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitConfig.m; path = src/PBGitConfig.m; sourceTree = "<group>"; };
 		D26DC6440E782C9000C777B2 /* gitx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = gitx.icns; path = resources/gitx.icns; sourceTree = "<group>"; };
-		EB2A73480FEE3F09006601CF /* PBCollapsibleSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBCollapsibleSplitView.h; path = src/PBCollapsibleSplitView.h; sourceTree = "<group>"; };
-		EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBCollapsibleSplitView.m; path = src/PBCollapsibleSplitView.m; sourceTree = "<group>"; };
+		EB66CEBC1631B8C80034F526 /* PBSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBSplitViewController.h; path = src/PBSplitViewController.h; sourceTree = "<group>"; };
+		EB66CEBD1631B8C80034F526 /* PBSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBSplitViewController.m; path = src/PBSplitViewController.m; sourceTree = "<group>"; };
 		EB76EA3A13B4467700B00C04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EB76EA7E13B446A600B00C04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		EB76EB5F13B4CB6C00B00C04 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		EBC5643313B5A07600DD539A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = resources/MainMenu.xib; sourceTree = "<group>"; };
 		EBC5643413B5A07600DD539A /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Preferences.xib; path = resources/Preferences.xib; sourceTree = "<group>"; };
 		EBC5643513B5A07600DD539A /* RepositoryWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RepositoryWindow.xib; path = resources/RepositoryWindow.xib; sourceTree = "<group>"; };
-		F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterBar.tiff; path = resources/image/mainSplitterBar.tiff; sourceTree = "<group>"; };
-		F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = mainSplitterDimple.tiff; path = resources/image/mainSplitterDimple.tiff; sourceTree = "<group>"; };
-		F50A41210EBB875D00208746 /* PBNiceSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBNiceSplitView.h; path = src/PBNiceSplitView.h; sourceTree = "<group>"; };
-		F50A41220EBB875D00208746 /* PBNiceSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBNiceSplitView.m; path = src/PBNiceSplitView.m; sourceTree = "<group>"; };
 		F50FE0E10E07BE9600854FCD /* PBGitRevisionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBGitRevisionCell.h; path = src/PBGitRevisionCell.h; sourceTree = "<group>"; };
 		F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBGitRevisionCell.m; path = src/PBGitRevisionCell.m; sourceTree = "<group>"; };
 		F51308590E0740F2000C8BCD /* PBQLOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBQLOutlineView.h; path = src/PBQLOutlineView.h; sourceTree = "<group>"; };
@@ -294,7 +287,6 @@
 				EBF8111D13BADF6A0018EB72 /* Button Icons */,
 				47DBDB920E94F47200671A1E /* Preference Icons */,
 				EBF8111E13BADFA90018EB72 /* File Icons */,
-				F50A41130EBB872D00208746 /* Widgets */,
 				D26DC6440E782C9000C777B2 /* gitx.icns */,
 				EBC5643313B5A07600DD539A /* MainMenu.xib */,
 				EBC5643413B5A07600DD539A /* Preferences.xib */,
@@ -359,15 +351,6 @@
 			name = "File Icons";
 			sourceTree = "<group>";
 		};
-		F50A41130EBB872D00208746 /* Widgets */ = {
-			isa = PBXGroup;
-			children = (
-				F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */,
-				F50A411E0EBB874C00208746 /* mainSplitterDimple.tiff */,
-			);
-			name = Widgets;
-			sourceTree = "<group>";
-		};
 		F56174540E05887E001DCD79 /* Git */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +383,8 @@
 				911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */,
 				F5E926040E8827D300056E75 /* PBViewController.h */,
 				F5E926050E8827D300056E75 /* PBViewController.m */,
+				EB66CEBC1631B8C80034F526 /* PBSplitViewController.h */,
+				EB66CEBD1631B8C80034F526 /* PBSplitViewController.m */,
 				F5EF8C8C0E9D4A5D0050906B /* PBWebController.h */,
 				F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */,
 				F5FE6C010EB13BC900F30D12 /* PBServicesController.h */,
@@ -436,10 +421,6 @@
 				F5140DC80E8A8EB20091E9F3 /* RoundedRectangle.m */,
 				F56244070E9684B0002B6C44 /* PBUnsortableTableHeader.h */,
 				F56244080E9684B0002B6C44 /* PBUnsortableTableHeader.m */,
-				F50A41210EBB875D00208746 /* PBNiceSplitView.h */,
-				F50A41220EBB875D00208746 /* PBNiceSplitView.m */,
-				EB2A73480FEE3F09006601CF /* PBCollapsibleSplitView.h */,
-				EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */,
 				F5FC41F20EBCBD4300191D80 /* PBGitXProtocol.h */,
 				F5FC41F30EBCBD4300191D80 /* PBGitXProtocol.m */,
 			);
@@ -624,8 +605,6 @@
 				F5E92A230E88569500056E75 /* new_file.png in Resources */,
 				F57240BB0E9678EA00D8EE66 /* deleted_file.png in Resources */,
 				F5E424110EA3E4D60046E362 /* PBDiffWindow.xib in Resources */,
-				F50A411F0EBB874C00208746 /* mainSplitterBar.tiff in Resources */,
-				F50A41200EBB874C00208746 /* mainSplitterDimple.tiff in Resources */,
 				056438B70ED0C40B00985397 /* DetailViewTemplate.png in Resources */,
 				F56ADDD90ED19F9E002AC78F /* AddBranchTemplate.png in Resources */,
 				F56ADDDA0ED19F9E002AC78F /* AddLabelTemplate.png in Resources */,
@@ -701,7 +680,6 @@
 				F5E424150EA3E4E10046E362 /* PBDiffWindowController.m in Sources */,
 				F5E424180EA3E4EB0046E362 /* PBWebDiffController.m in Sources */,
 				F5FE6C030EB13BC900F30D12 /* PBServicesController.m in Sources */,
-				F50A41230EBB875D00208746 /* PBNiceSplitView.m in Sources */,
 				F5FC41F40EBCBD4300191D80 /* PBGitXProtocol.m in Sources */,
 				F574A2850EAE2EAC003F2CB1 /* PBRefController.m in Sources */,
 				F5FC43FE0EBD08EE00191D80 /* PBRefMenuItem.m in Sources */,
@@ -710,8 +688,8 @@
 				47DBDB670E94EE8B00671A1E /* PBPrefsWindowController.m in Sources */,
 				47DBDBCA0E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m in Sources */,
 				F562C8870FE1766C000EC528 /* NSString_RegEx.m in Sources */,
-				EB2A734A0FEE3F09006601CF /* PBCollapsibleSplitView.m in Sources */,
 				F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */,
+				EB66CEBE1631B8C80034F526 /* PBSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

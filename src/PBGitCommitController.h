@@ -7,11 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "PBViewController.h"
+#import "PBSplitViewController.h"
 
 @class PBGitIndexController, PBIconAndTextCell, PBWebChangesController, PBGitIndex;
 
-@interface PBGitCommitController : PBViewController {
+@interface PBGitCommitController : PBSplitViewController {
 	// This might have to transfer over to the PBGitRepository
 	// object sometime
 	PBGitIndex *index;
