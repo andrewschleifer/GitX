@@ -8,7 +8,7 @@
 
 #import "PBGitDefaults.h"
 
-#define kDefaultVerticalLineLength 50
+#define kDefaultVerticalLineLength 72
 #define kCommitMessageViewVerticalLineLength @"PBCommitMessageViewVerticalLineLength"
 #define kEnableGist @"PBEnableGist"
 #define kEnableGravatar @"PBEnableGravatar"
