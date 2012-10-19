@@ -5,13 +5,13 @@
 
 @interface ApplicationController : NSObject
 {
-	IBOutlet NSWindow *window;
-	IBOutlet id firstResponder;
-	NSPersistentStoreCoordinator *persistentStoreCoordinator;
-	NSManagedObjectModel *managedObjectModel;
-	NSManagedObjectContext *managedObjectContext;
+    IBOutlet NSWindow *window;
+    IBOutlet id firstResponder;
+    NSPersistentStoreCoordinator *persistentStoreCoordinator;
+    NSManagedObjectModel *managedObjectModel;
+    NSManagedObjectContext *managedObjectContext;
 
-	PBCLIProxy *cliProxy;
+    PBCLIProxy *cliProxy;
 }
 @property (retain) PBCLIProxy* cliProxy;
 
@@ -28,4 +28,3 @@
 - (IBAction) showHelp:(id) sender;
 
 @end
-

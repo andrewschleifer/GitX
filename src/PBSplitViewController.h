@@ -9,4 +9,3 @@
 - (CGFloat) splitView: (NSSplitView *) sender constrainMaxCoordinate: (CGFloat) proposedMax ofSubviewAt: (NSInteger) offset;
 
 @end
-

@@ -5,11 +5,11 @@
 @class PBWebHistoryController;
 
 @interface PBCommitList : NSTableView {
-	IBOutlet WebView* webView;
-	IBOutlet PBWebHistoryController *webController;
-	IBOutlet PBGitHistoryController *controller;
+    IBOutlet WebView* webView;
+    IBOutlet PBWebHistoryController *webController;
+    IBOutlet PBGitHistoryController *controller;
 
-	NSPoint mouseDownPoint;
+    NSPoint mouseDownPoint;
 }
 
 @property (readonly) NSPoint mouseDownPoint;

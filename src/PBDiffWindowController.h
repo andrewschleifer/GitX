@@ -1,8 +1,6 @@
 
-
-
 @interface PBDiffWindowController : NSWindowController {
-	NSString *diff;
+    NSString *diff;
 }
 
 - initWithDiff:(NSString *)diff;

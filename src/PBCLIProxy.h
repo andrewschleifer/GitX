@@ -1,9 +1,7 @@
 
-
-
 @interface PBCLIProxy : NSObject
 {
-	NSConnection *connection;
+    NSConnection *connection;
 }
 @property (retain) NSConnection* connection;
 @end

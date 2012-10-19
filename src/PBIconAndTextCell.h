@@ -1,6 +1,4 @@
 
-
-
 @interface PBIconAndTextCell : NSTextFieldCell
 {
     NSImage *image;

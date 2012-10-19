@@ -1,18 +1,15 @@
 
-
-
 @interface DBPrefsWindowController : NSWindowController {
-	NSMutableArray *toolbarIdentifiers;
-	NSMutableDictionary *toolbarViews;
-	NSMutableDictionary *toolbarItems;
-	
-	BOOL _crossFade;
-	BOOL _shiftSlowsAnimation;
-	
-	NSView *contentSubview;
-	NSViewAnimation *viewAnimation;
-}
+    NSMutableArray *toolbarIdentifiers;
+    NSMutableDictionary *toolbarViews;
+    NSMutableDictionary *toolbarItems;
 
+    BOOL _crossFade;
+    BOOL _shiftSlowsAnimation;
+
+    NSView *contentSubview;
+    NSViewAnimation *viewAnimation;
+}
 
 + (DBPrefsWindowController *)sharedPrefsWindowController;
 + (NSString *)nibName;
@@ -30,6 +27,4 @@
 - (void)crossFadeView:(NSView *)oldView withView:(NSView *)newView;
 - (NSRect)frameForView:(NSView *)view;
 
-
 @end
-

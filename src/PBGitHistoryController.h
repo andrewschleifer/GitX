@@ -4,20 +4,20 @@
 #import "PBSplitViewController.h"
 
 @interface PBGitHistoryController : PBSplitViewController {
-	IBOutlet NSSearchField *searchField;
-	IBOutlet NSArrayController* commitController;
-	IBOutlet NSTreeController* treeController;
-	IBOutlet NSOutlineView* fileBrowser;
-	IBOutlet NSTableView* commitList;
-	IBOutlet NSSplitView *historySplitView;
+    IBOutlet NSSearchField *searchField;
+    IBOutlet NSArrayController* commitController;
+    IBOutlet NSTreeController* treeController;
+    IBOutlet NSOutlineView* fileBrowser;
+    IBOutlet NSTableView* commitList;
+    IBOutlet NSSplitView *historySplitView;
 
-	IBOutlet id webView;
-	int selectedTab;
-	
-	PBGitTree* gitTree;
-	PBGitCommit* webCommit;
-	PBGitCommit* rawCommit;
-	PBGitCommit* realCommit;
+    IBOutlet id webView;
+    int selectedTab;
+
+    PBGitTree* gitTree;
+    PBGitCommit* webCommit;
+    PBGitCommit* rawCommit;
+    PBGitCommit* realCommit;
 }
 
 @property (assign) int selectedTab;

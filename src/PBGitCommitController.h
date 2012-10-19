@@ -4,20 +4,20 @@
 @class PBGitIndexController, PBIconAndTextCell, PBWebChangesController, PBGitIndex;
 
 @interface PBGitCommitController : PBSplitViewController {
-	// This might have to transfer over to the PBGitRepository
-	// object sometime
-	PBGitIndex *index;
-	
-	IBOutlet NSTextView *commitMessageView;
-	IBOutlet NSArrayController *unstagedFilesController;
-	IBOutlet NSArrayController *cachedFilesController;
-	IBOutlet NSButton *commitButton;
+    // This might have to transfer over to the PBGitRepository
+    // object sometime
+    PBGitIndex *index;
 
-	IBOutlet PBGitIndexController *indexController;
-	IBOutlet PBWebChangesController *webController;
+    IBOutlet NSTextView *commitMessageView;
+    IBOutlet NSArrayController *unstagedFilesController;
+    IBOutlet NSArrayController *cachedFilesController;
+    IBOutlet NSButton *commitButton;
 
-	NSString *status;
-	BOOL busy;
+    IBOutlet PBGitIndexController *indexController;
+    IBOutlet PBWebChangesController *webController;
+
+    NSString *status;
+    BOOL busy;
 }
 
 @property(copy) NSString *status;

@@ -1,11 +1,10 @@
 
-
 @class PBGitRepository;
 
 @interface PBGitRevList : NSObject {
-	NSArray* commits;
-	PBGitRepository *repository;
-	NSString* lastSha;
+    NSArray* commits;
+    PBGitRepository *repository;
+    NSString* lastSha;
 }
 
 - (id)initWithRepository:(PBGitRepository *)repo;

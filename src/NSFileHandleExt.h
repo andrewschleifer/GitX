@@ -7,4 +7,3 @@
 @interface NSFileHandle(NSFileHandleExt)
 - (NSString*)readLine;
 @end
-

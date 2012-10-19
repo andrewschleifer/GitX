@@ -1,6 +1,4 @@
 
-
-
 @interface PBFileChangesTableView : NSTableView {
 }
 

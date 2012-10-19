@@ -1,5 +1,4 @@
 
-
 @class PBGitRepository;
 @class PBChangedFile;
 
@@ -26,22 +25,20 @@ extern NSString *PBGitIndexAmendMessageAvailable;
 // This is for general operations, like applying a patch
 extern NSString *PBGitIndexOperationFailed;
 
-
-
 // Represents a git index for a given work tree.
 // As a single git repository can have multiple trees,
 // the tree has to be given explicitly, even though
 // multiple trees is not yet supported in GitX
 @interface PBGitIndex : NSObject {
-	
-@private
-	PBGitRepository *repository;
-	NSURL *workingDirectory;
-	NSMutableArray *files;
 
-	NSUInteger refreshStatus;
-	NSDictionary *amendEnvironment;
-	BOOL amend;
+@private
+    PBGitRepository *repository;
+    NSURL *workingDirectory;
+    NSMutableArray *files;
+
+    NSUInteger refreshStatus;
+    NSDictionary *amendEnvironment;
+    BOOL amend;
 }
 
 // Whether we want the changes for amending,

@@ -2,9 +2,9 @@
 #import <PBGitRef.h>
 
 @interface PBGitRevSpecifier : NSObject {
-	NSString *description;
-	NSArray *parameters;
-	NSURL *workingDirectory;
+    NSString *description;
+    NSArray *parameters;
+    NSURL *workingDirectory;
 }
 
 - (id) initWithParameters:(NSArray*) params;

@@ -8,10 +8,10 @@
 
 - (void)setupToolbar
 {
-	// GENERAL
-	[self addView:generalPrefsView label:@"General" image:[NSImage imageNamed:@"gitx"]];
-	// INTERGRATION
-	[self addView:integrationPrefsView label:@"Integration" image:[NSImage imageNamed:NSImageNameNetwork]];
+    // GENERAL
+    [self addView:generalPrefsView label:@"General" image:[NSImage imageNamed:@"gitx"]];
+    // INTERGRATION
+    [self addView:integrationPrefsView label:@"Integration" image:[NSImage imageNamed:NSImageNameNetwork]];
 }
 
 #pragma mark -
@@ -19,26 +19,26 @@
 
 - (IBAction) checkGitValidity: sender
 {
-	// FIXME: This does not work reliably, probably due to: http://www.cocoabuilder.com/archive/message/cocoa/2008/9/10/217850
-	//[badGitPathIcon setHidden:[PBGitRepository validateGit:[[NSValueTransformer valueTransformerForName:@"PBNSURLPathUserDefaultsTransfomer"] reverseTransformedValue:[gitPathController URL]]]];
+    // FIXME: This does not work reliably, probably due to: http://www.cocoabuilder.com/archive/message/cocoa/2008/9/10/217850
+    //[badGitPathIcon setHidden:[PBGitRepository validateGit:[[NSValueTransformer valueTransformerForName:@"PBNSURLPathUserDefaultsTransfomer"] reverseTransformedValue:[gitPathController URL]]]];
 }
 
 - (IBAction) resetGitPath: sender
 {
-	[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"gitExecutable"];
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"gitExecutable"];
 }
 
 - (void)pathCell:(NSPathCell *)pathCell willDisplayOpenPanel:(NSOpenPanel *)openPanel
 {
-	[openPanel setCanChooseDirectories:NO];
-	[openPanel setCanChooseFiles:YES];
-	[openPanel setAllowsMultipleSelection:NO];
-	[openPanel setTreatsFilePackagesAsDirectories:YES];
-	[openPanel setAccessoryView:gitPathOpenAccessory];
-	[openPanel setResolvesAliases:NO];
-	//[[openPanel _navView] setShowsHiddenFiles:YES];
+    [openPanel setCanChooseDirectories:NO];
+    [openPanel setCanChooseFiles:YES];
+    [openPanel setAllowsMultipleSelection:NO];
+    [openPanel setTreatsFilePackagesAsDirectories:YES];
+    [openPanel setAccessoryView:gitPathOpenAccessory];
+    [openPanel setResolvesAliases:NO];
+    //[[openPanel _navView] setShowsHiddenFiles:YES];
 
-	gitPathOpenPanel = openPanel;
+    gitPathOpenPanel = openPanel;
 }
 
 #pragma mark -
@@ -46,9 +46,9 @@
 
 - (IBAction) showHideAllFiles: sender
 {
-	/* FIXME: This uses undocumented OpenPanel features to show hidden files! */
-	NSNumber *showHidden = [NSNumber numberWithBool:[sender state] == NSOnState];
-	[[gitPathOpenPanel valueForKey:@"_navView"] setValue:showHidden forKey:@"showsHiddenFiles"];
+    /* FIXME: This uses undocumented OpenPanel features to show hidden files! */
+    NSNumber *showHidden = [NSNumber numberWithBool:[sender state] == NSOnState];
+    [[gitPathOpenPanel valueForKey:@"_navView"] setValue:showHidden forKey:@"showsHiddenFiles"];
 }
 
 @end

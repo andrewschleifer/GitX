@@ -1,8 +1,6 @@
 
-
-
 @interface PBGitRef : NSObject {
-	NSString* ref;
+    NSString* ref;
 }
 
 - (NSString*) shortName;

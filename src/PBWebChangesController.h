@@ -6,13 +6,13 @@
 @class PBGitIndexController;
 
 @interface PBWebChangesController : PBWebController {
-	IBOutlet NSArrayController *unstagedFilesController;
-	IBOutlet NSArrayController *cachedFilesController;
-	IBOutlet PBGitCommitController *controller;
-	IBOutlet PBGitIndexController *indexController;
+    IBOutlet NSArrayController *unstagedFilesController;
+    IBOutlet NSArrayController *cachedFilesController;
+    IBOutlet PBGitCommitController *controller;
+    IBOutlet PBGitIndexController *indexController;
 
-	PBChangedFile *selectedFile;
-	BOOL selectedFileIsCached;
+    PBChangedFile *selectedFile;
+    BOOL selectedFileIsCached;
 }
 
 - (void) refresh;

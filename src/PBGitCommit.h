@@ -4,20 +4,20 @@
 #include <git/oid.h>
 
 @interface PBGitCommit : NSObject {
-	git_oid sha;
-	git_oid *parentShas;
-	int nParents;
+    git_oid sha;
+    git_oid *parentShas;
+    int nParents;
 
-	NSString* subject;
-	NSString* author;
-	NSString* details;
-	NSString *_patch;
-	NSArray* parents;
+    NSString* subject;
+    NSString* author;
+    NSString* details;
+    NSString *_patch;
+    NSArray* parents;
 
-	int timestamp;
-	char sign;
-	id lineInfo;
-	PBGitRepository* repository;
+    int timestamp;
+    char sign;
+    id lineInfo;
+    PBGitRepository* repository;
 }
 
 - (id)initWithRepository:(PBGitRepository *)repo andSha:(git_oid)sha;

@@ -2,16 +2,16 @@
 #import "DBPrefsWindowController.h"
 
 @interface PBPrefsWindowController : DBPrefsWindowController {
-	/* Outlets for Preference Views */
-	IBOutlet NSView *generalPrefsView;
-	IBOutlet NSView *integrationPrefsView;
-	IBOutlet NSView *updatesPrefsView;
+    /* Outlets for Preference Views */
+    IBOutlet NSView *generalPrefsView;
+    IBOutlet NSView *integrationPrefsView;
+    IBOutlet NSView *updatesPrefsView;
 
-	/* Variables for the Updates View */
-	IBOutlet NSPathControl *gitPathController;
-	IBOutlet NSImageView *badGitPathIcon;
-	IBOutlet NSView *gitPathOpenAccessory;
-	NSOpenPanel *gitPathOpenPanel;
+    /* Variables for the Updates View */
+    IBOutlet NSPathControl *gitPathController;
+    IBOutlet NSImageView *badGitPathIcon;
+    IBOutlet NSView *gitPathOpenAccessory;
+    NSOpenPanel *gitPathOpenPanel;
 
 }
 

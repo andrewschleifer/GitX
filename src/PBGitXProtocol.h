@@ -2,7 +2,7 @@
 #import "PBGitRepository.h"
 
 @interface PBGitXProtocol : NSURLProtocol {
-	NSFileHandle *handle;
+    NSFileHandle *handle;
 }
 @end
 
@@ -13,4 +13,3 @@
 @interface NSMutableURLRequest (PBGitXProtocol)
 @property (retain) PBGitRepository *repository;
 @end
-

@@ -6,11 +6,11 @@
 #import "PBRefContextDelegate.h"
 
 @interface PBWebHistoryController : PBWebController {
-	IBOutlet PBGitHistoryController* historyController;
-	IBOutlet id<PBRefContextDelegate> contextMenuDelegate;
+    IBOutlet PBGitHistoryController* historyController;
+    IBOutlet id<PBRefContextDelegate> contextMenuDelegate;
 
-	NSString* currentSha;
-	NSString* diff;
+    NSString* currentSha;
+    NSString* diff;
 }
 
 - (void) changeContentTo: (PBGitCommit *) content;

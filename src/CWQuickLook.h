@@ -1,3 +1,4 @@
+
 @interface QLPreviewPanel : NSPanel
 + (id)sharedPreviewPanel;
 + (id)_previewPanel;

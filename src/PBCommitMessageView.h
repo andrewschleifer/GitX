@@ -1,5 +1,4 @@
 
-
 @interface PBCommitMessageView : NSTextView {
 
 }

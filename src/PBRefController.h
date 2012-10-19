@@ -8,15 +8,15 @@
 @class PBRefMenuItem;
 
 @interface PBRefController : NSObject <PBRefContextDelegate> {
-	IBOutlet __weak PBGitHistoryController *historyController;
-	IBOutlet NSArrayController *commitController;
-	IBOutlet PBCommitList *commitList;
+    IBOutlet __weak PBGitHistoryController *historyController;
+    IBOutlet NSArrayController *commitController;
+    IBOutlet PBCommitList *commitList;
 
-	IBOutlet NSWindow *newBranchSheet;
-	IBOutlet NSTextField *newBranchName;
-	IBOutlet NSTextField *errorMessage;
+    IBOutlet NSWindow *newBranchSheet;
+    IBOutlet NSTextField *newBranchName;
+    IBOutlet NSTextField *errorMessage;
 
-	IBOutlet NSPopUpButton *branchPopUp;
+    IBOutlet NSPopUpButton *branchPopUp;
 }
 
 - (void)removeRef:(PBRefMenuItem *)sender;

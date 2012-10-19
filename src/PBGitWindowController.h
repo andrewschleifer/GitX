@@ -3,14 +3,14 @@
 
 @class PBViewController;
 @interface PBGitWindowController : NSWindowController {
-	__weak PBGitRepository* repository;
-	int selectedViewIndex;
-	IBOutlet NSView* contentView;
+    __weak PBGitRepository* repository;
+    int selectedViewIndex;
+    IBOutlet NSView* contentView;
 
-	PBViewController *historyViewController;
-	PBViewController *commitViewController;
+    PBViewController *historyViewController;
+    PBViewController *commitViewController;
 
-	PBViewController* viewController;
+    PBViewController* viewController;
 }
 
 @property (assign) __weak PBGitRepository *repository;

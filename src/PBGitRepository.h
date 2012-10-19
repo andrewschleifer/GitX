@@ -8,15 +8,15 @@ extern NSString* PBGitRepositoryErrorDomain;
 @class PBGitWindowController;
 
 @interface PBGitRepository : NSDocument {
-	PBGitRevList* revisionList;
-	PBGitConfig *config;
+    PBGitRevList* revisionList;
+    PBGitConfig *config;
 
-	BOOL hasChanged;
-	NSMutableArray *branches;
-	PBGitRevSpecifier *currentBranch;
-	NSMutableDictionary *refs;
+    BOOL hasChanged;
+    NSMutableArray *branches;
+    PBGitRevSpecifier *currentBranch;
+    NSMutableDictionary *refs;
 
-	PBGitRevSpecifier *_headRef; // Caching
+    PBGitRevSpecifier *_headRef; // Caching
 }
 
 - (NSFileHandle*) handleForCommand:(NSString*) cmd;
@@ -26,7 +26,6 @@ extern NSString* PBGitRepositoryErrorDomain;
 - (NSString *)outputForCommand:(NSString *)str retValue:(int *)ret;
 - (NSString *)outputForArguments:(NSArray *)arguments inputString:(NSString *)input retValue:(int *)ret;
 - (NSString *)outputForArguments:(NSArray *)arguments inputString:(NSString *)input byExtendingEnvironment:(NSDictionary *)dict retValue:(int *)ret;
-
 
 - (NSString*) outputForArguments:(NSArray*) args;
 - (NSString*) outputForArguments:(NSArray*) args retValue:(int *)ret;

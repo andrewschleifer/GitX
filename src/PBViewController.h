@@ -3,10 +3,10 @@
 #import "PBGitWindowController.h"
 
 @interface PBViewController : NSViewController {
-	__weak PBGitRepository *repository;
-	__weak PBGitWindowController *superController;
+    __weak PBGitRepository *repository;
+    __weak PBGitWindowController *superController;
 
-	IBOutlet NSToolbar *viewToolbar;
+    IBOutlet NSToolbar *viewToolbar;
 }
 
 @property (readonly) __weak PBGitRepository *repository;

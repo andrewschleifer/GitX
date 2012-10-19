@@ -1,7 +1,6 @@
 
 #import "PBGitRevSpecifier.h"
 
-
 @interface PBRepositoryDocumentController : NSDocumentController
 {
 

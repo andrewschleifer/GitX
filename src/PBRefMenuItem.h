@@ -3,10 +3,10 @@
 #import "PBGitCommit.h"
 
 @interface PBRefMenuItem : NSMenuItem {
-	PBGitRef *ref;
-	PBGitCommit *commit;
+    PBGitRef *ref;
+    PBGitCommit *commit;
 }
-	
+
 @property (retain) PBGitCommit *commit;
 @property (retain) PBGitRef *ref;
 
