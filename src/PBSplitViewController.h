@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBViewController.h"
 
 @interface PBSplitViewController : PBViewController {}

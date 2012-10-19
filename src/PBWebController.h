@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
 
 @interface PBWebController : NSObject {

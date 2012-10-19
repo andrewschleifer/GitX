@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitBinary.h"
 #import "PBEasyPipe.h"
 

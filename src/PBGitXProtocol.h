@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitRepository.h"
 
 @interface PBGitXProtocol : NSURLProtocol {

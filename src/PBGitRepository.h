@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitRevList.h"
 #import "PBGitRevSpecifier.h"
 #import "PBGitConfig.h"

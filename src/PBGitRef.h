@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 
 
 @interface PBGitRef : NSObject {

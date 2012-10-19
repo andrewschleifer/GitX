@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitCommit.h"
 #import "PBGitTree.h"
 #import "PBSplitViewController.h"

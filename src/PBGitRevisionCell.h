@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitGrapher.h"
 #import "PBGraphCellInfo.h"
 #import "PBGitHistoryController.h"

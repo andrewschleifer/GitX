@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitRepository.h"
 #import "PBGitTree.h"
 #include <git/oid.h>

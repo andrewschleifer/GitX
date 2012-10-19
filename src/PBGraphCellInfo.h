@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitGraphLine.h"
 
 @interface PBGraphCellInfo : NSObject

@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBGitRef.h"
 #import "PBGitCommit.h"
 

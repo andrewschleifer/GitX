@@ -1,5 +1,4 @@
 
-#import <Cocoa/Cocoa.h>
 #import "PBSplitViewController.h"
 
 @class PBGitIndexController, PBIconAndTextCell, PBWebChangesController, PBGitIndex;
