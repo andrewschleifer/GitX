@@ -93,7 +93,7 @@ using namespace std;
     __gnu_cxx::stdio_filebuf<char> buf(fd, std::ios::in);
     std::istream stream(&buf);
 
-    int num = 0;
+    int commitCount = 0;
     while (true) {
         string sha;
         if (!getline(stream, sha, '\1'))
@@ -104,7 +104,7 @@ using namespace std;
         // in this buffer. So, we use a substring of current input.
         if (sha[1] == 'i') // Matches 'Final output'
         {
-            num = 0;
+            commitCount = 0;
             [self performSelectorOnMainThread:@selector(setCommits:) withObject:revisions waitUntilDone:NO];
             revisions = [NSMutableArray array];
 
@@ -169,13 +169,13 @@ using namespace std;
         [revisions addObject: newCommit];
         [grapher decorateCommit: newCommit];
 
-        if (++num % 1000 == 0)
+        if (++commitCount % 1000 == 0)
             [self performSelectorOnMainThread:@selector(setCommits:) withObject:revisions waitUntilDone:NO];
     }
 
     [grapher release];
     NSTimeInterval duration = [[NSDate date] timeIntervalSinceDate:start];
-    NSLog(@"Loaded %i commits in %f seconds", num, duration);
+    NSLog(@"Loaded %i commits in %f seconds", commitCount, duration);
     // Make sure the commits are stored before exiting.
     [self performSelectorOnMainThread:@selector(setCommits:) withObject:revisions waitUntilDone:YES];
     [task waitUntilExit];
