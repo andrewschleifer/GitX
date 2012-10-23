@@ -72,8 +72,8 @@ using namespace std;
     PBGitGrapher* grapher = [[PBGitGrapher alloc] initWithRepository: repository];
 
     NSString *formatString = @"--pretty=format:%H\01%an\01%s\01%P\01%at";
-    BOOL showSign = [rev hasLeftRight];
 
+    BOOL showSign = [rev hasLeftRight];
     if (showSign)
         formatString = [formatString stringByAppendingString:@"\01%m"];
 
