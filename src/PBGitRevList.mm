@@ -78,11 +78,10 @@ using namespace std;
         formatString = [formatString stringByAppendingString:@"\01%m"];
 
     NSMutableArray *arguments = [NSMutableArray arrayWithObjects:@"log", @"-z", @"--early-output", @"--topo-order", @"--children", formatString, nil];
-
-    if (!rev)
-        [arguments addObject:@"HEAD"];
-    else
+    if (rev)
         [arguments addObjectsFromArray:[rev parameters]];
+    else
+        [arguments addObject:@"HEAD"];
 
     NSString *directory = rev.workingDirectory ? rev.workingDirectory.path : repository.fileURL.path;
     NSTask *task = [PBEasyPipe taskForCommand:[PBGitBinary path] withArgs:arguments inDir:directory];
