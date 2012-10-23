@@ -9,7 +9,6 @@
 #include <ext/stdio_filebuf.h>
 #include <iostream>
 #include <string>
-#include <map>
 
 using namespace std;
 
@@ -71,9 +70,8 @@ using namespace std;
     NSDate *start = [NSDate date];
     NSMutableArray* revisions = [NSMutableArray array];
     PBGitGrapher* g = [[PBGitGrapher alloc] initWithRepository: repository];
-    std::map<string, NSStringEncoding> encodingMap;
 
-    NSString *formatString = @"--pretty=format:%H\01%e\01%an\01%s\01%P\01%at";
+    NSString *formatString = @"--pretty=format:%H\01%an\01%s\01%P\01%at";
     BOOL showSign = [rev hasLeftRight];
 
     if (showSign)
@@ -119,19 +117,6 @@ using namespace std;
         }
 
         // From now on, 1.2 seconds
-        string encoding_str;
-        getline(stream, encoding_str, '\1');
-        NSStringEncoding encoding = NSUTF8StringEncoding;
-        if (encoding_str.length())
-        {
-            if (encodingMap.find(encoding_str) != encodingMap.end()) {
-                encoding = encodingMap[encoding_str];
-            } else {
-                encoding = CFStringConvertEncodingToNSStringEncoding(CFStringConvertIANACharSetNameToEncoding((CFStringRef)[NSString stringWithUTF8String:encoding_str.c_str()]));
-                encodingMap[encoding_str] = encoding;
-            }
-        }
-
         git_oid oid;
         git_oid_mkstr(&oid, sha.c_str());
         PBGitCommit* newCommit = [[PBGitCommit alloc] initWithRepository:repository andSha:oid];
@@ -163,9 +148,8 @@ using namespace std;
         int time;
         stream >> time;
 
-
-        [newCommit setSubject:[NSString stringWithCString:subject.c_str() encoding:encoding]];
-        [newCommit setAuthor:[NSString stringWithCString:author.c_str() encoding:encoding]];
+        [newCommit setSubject:[NSString stringWithCString:subject.c_str() encoding:NSUTF8StringEncoding]];
+        [newCommit setAuthor:[NSString stringWithCString:author.c_str() encoding:NSUTF8StringEncoding]];
         [newCommit setTimestamp:time];
 
         if (showSign)
