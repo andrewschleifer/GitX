@@ -69,7 +69,7 @@ using namespace std;
 {
     NSDate *start = [NSDate date];
     NSMutableArray* revisions = [NSMutableArray array];
-    PBGitGrapher* g = [[PBGitGrapher alloc] initWithRepository: repository];
+    PBGitGrapher* grapher = [[PBGitGrapher alloc] initWithRepository: repository];
 
     NSString *formatString = @"--pretty=format:%H\01%an\01%s\01%P\01%at";
     BOOL showSign = [rev hasLeftRight];
@@ -106,7 +106,6 @@ using namespace std;
         {
             num = 0;
             [self performSelectorOnMainThread:@selector(setCommits:) withObject:revisions waitUntilDone:NO];
-            g = [[PBGitGrapher alloc] initWithRepository: repository];
             revisions = [NSMutableArray array];
 
             // If the length is < 40, then there are no commits.. quit now
@@ -168,12 +167,13 @@ using namespace std;
             cout << "Error" << endl;
 
         [revisions addObject: newCommit];
-        [g decorateCommit: newCommit];
+        [grapher decorateCommit: newCommit];
 
         if (++num % 1000 == 0)
             [self performSelectorOnMainThread:@selector(setCommits:) withObject:revisions waitUntilDone:NO];
     }
 
+    [grapher release];
     NSTimeInterval duration = [[NSDate date] timeIntervalSinceDate:start];
     NSLog(@"Loaded %i commits in %f seconds", num, duration);
     // Make sure the commits are stored before exiting.
