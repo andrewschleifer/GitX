@@ -1,26 +1,24 @@
-GitX
-----
 
-## What is GitX?
+# About
 
 GitX is a gitk-like clone written specifically for OS X.  This means that it
 has a native interface and tries to integrate with the operating system as good
 as possible.
 
 
-## Features
+# Features
 
   * History browsing of your repository
   * Nicely formatted diff of any revision
   * Search based on author or revision subject
   * Show the complete tree of any revision
 
-## License
+# License
 
 GitX is licensed under the GPL version 2.  For more information, see the
 included LICENSE.txt file.
 
-## Usage
+# Usage
 
 GitX itself is fairly simple.  Most of its power is in the 'gitx' binary, which
 you should install through the menu.  the 'gitx' binary supports most of git
